@@ -156,14 +156,14 @@ export default function Services() {
                             O sistema BLISTER, é um sistema exclusivo para farmacias com integração direta com o banco de dados central de medicamentos, mantendo os valores de cada medicamento atualziado no seu cadastro.
                           </p>
 
-                          <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                          {/* <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                             { techs.info.map((tech) => (
                               <div key={ tech.name } className="border-t border-gray-200 pt-4">
                                 <dt className="font-medium text-gray-900">{ tech.name }</dt>
                                 <dd className="mt-2 text-sm text-gray-500">{ tech.description }</dd>
                               </div>
                             )) }
-                          </dl>
+                          </dl> */}
 
                         </div>
                         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
