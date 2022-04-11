@@ -82,20 +82,20 @@ const callouts = [
 
 const techs = [
   {
-    id:1,
+    id: 1,
     title: 'Funcionalidades ',
     techName: 'E-commerce',
     info: [
-    {name: 'Facil', description: 'Um E-commerce de facil utilização e intuitivo' },
-    { name: 'Ágils', description: 'Sistema com facil instalação, agilizando seu atendimento' },
-    { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
-    { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
-    { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
-    { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
-  ]
+      { name: 'Facil', description: 'Um E-commerce de facil utilização e intuitivo' },
+      { name: 'Ágils', description: 'Sistema com facil instalação, agilizando seu atendimento' },
+      { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
+      { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
+      { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
+      { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+    ]
   }
-  
-  ]
+
+]
 
 export default function Services() {
   const [open, setOpen] = useState(false)
@@ -151,7 +151,7 @@ export default function Services() {
                     <div className="sm:flex sm:items-start">
                       <div className="max-w-2xl mx-auto py-12 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6  lg:max-w-7xl lg:px-8 lg:grid-cols-2">
                         <div>
-                          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">{techs.title}</h2>
+                          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">{ techs.title }</h2>
                           <p className="mt-4 text-gray-500">
                             O sistema BLISTER, é um sistema exclusivo para farmacias com integração direta com o banco de dados central de medicamentos, mantendo os valores de cada medicamento atualziado no seu cadastro.
                           </p>
@@ -205,11 +205,11 @@ export default function Services() {
               <h2 className="text-2xl font-extrabold text-gray-900">Nossos Serviços</h2>
 
               <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-                
+
                 { callouts.map((callout) => (
                   <div key={ callout.name } className="group relative">
                     <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                      
+
                       <img
                         src={ callout.imageSrc }
                         alt={ callout.imageAlt }
