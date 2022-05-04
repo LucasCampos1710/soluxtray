@@ -58,14 +58,7 @@ const callouts = [
     imageAlt: 'Imagem da loja virtual(e-commerce) da Maria Calopsita criada pela Solux Creative',
     href: 'https://www.lojayumipesca.com.br',
   },
-  {
-    name: 'Econorte',
-    description: 'Loja especializada em vendas de produtos para Calopsitas',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_7_uzu6ka.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Maria Calopsita criada pela Solux Creative',
-    href: 'https://www.lojaeconorte.com.br',
-  },
-  {
+   {
     name: 'LAF Atacado',
     description: 'Loja especializada em vendas de produtos para Calopsitas',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_8_bf2kqj.png',
@@ -165,7 +158,7 @@ export default function Clients() {
                       />
                     </div>
                     <h3 className="mt-6 text-sm text-gray-500">
-                      <a href={callout.href}>
+                      <a href={callout.href} target="_blank">
                         <span className="absolute inset-0" />
                         {callout.name}
                       </a>

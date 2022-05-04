@@ -1,13 +1,12 @@
-import { Fragment, useRef, useState } from 'react'
-import { Disclosure, Menu, Transition, Dialog } from '@headlessui/react'
-import { MenuIcon, XIcon, ExclamationIcon } from '@heroicons/react/outline'
-import Modal from '../modal/modal'
+import { Fragment } from 'react'
+import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
 const navigation = [
-  { name: 'Sobre a Solux', href: '#' },
-  { name: 'Clientes', href: '/clients' },
-  { name: 'Erp', href: '/erp' }
+  { name: 'Lojas Virtuais (e-Commerce)', href: '/ecommerce', current: false  },
+  { name: 'Clientes', href: '/clients', current: false  },
+  // { name: 'Sistemas', href: '/erp', current: false  }
 ]
 
 
@@ -18,14 +17,15 @@ function classNames(...classes) {
 export default function Example() {
  
   return (
-    <Disclosure as="nav" className="bg-white rounded-md z-10 fixed top-1.5">
+    <header>
+    <Disclosure as="nav" className="bg-zinc-100 z-10 font-inter">
       { ({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div className="relative flex items-center justify-between h-16">
+            <div className="relative flex items-center justify-between h-20">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/ }
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   { open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -38,28 +38,28 @@ export default function Example() {
                 <div className="flex-shrink-0 flex items-center">
                   <a href="/">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png"
-                    alt="Logo Solux Creative"
+                    className="block lg:hidden h-20 w-auto"
+                      src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png"
+                    alt="Solux Creative"
                   />
-                  </a>
-                  <a href="/">
+                    </a>
+                    <a href="/">
                   <img
-                    className="hidden lg:block h-16 w-auto"
-                    src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png"
-                    alt="Logo Solux Creative"
+                    className="hidden lg:block h-24 w-auto"
+                      src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png"
+                    alt="Solux Creative"
                   />
                   </a>
                 </div>
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex pt-3 space-x-4">
+                  <div className="hidden sm:block sm:ml-6">
+                    <div className="flex relative top-6 space-x-4 ">
                     { navigation.map((item) => (
                       <a
                         key={ item.name }
                         href={ item.href }
                         className={ classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          item.current ? ' bg-gray-900 text-white' : ' text-gray-900 hover:bg-gradient-to-tr from-violet-500 to-cyan-600 hover:text-white',
+                          'px-3 py-2 mt-1 rounded-md text-sm font-medium'
                         ) }
                         aria-current={ item.current ? 'page' : undefined }
                       >
@@ -72,25 +72,35 @@ export default function Example() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
-                  onClick={Modal}
-                  className="bg-gradient-to-r from-indigo-500  to-teal-500 p-3 rounded-md text-white hover:text-violet-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    onClick={ () => window.location.href ="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce" }
+                  className=" hidden lg:block bg-gradient-to-tr from-cyan-500 to-violet-800 p-3 rounded-lg text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
                 >
-                  <span className="sr-only">Fala com um consultor</span>
-                  Fale com um consultor
+                  Falar com um consultor
+                  <span className="sr-only">Falar com um consultor</span>
                 </button>
-               </div>
-            </div>   
+                <button
+                  type="button"
+                    onClick={ () => window.location.href = "https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce" }
+                  className="block lg:hidden bg-gradient-to-tr from-cyan-500 to-violet-800 p-3 rounded-lg text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
+                >
+                  Consultor
+                  <span className="sr-only">Falar com um consultor</span>
+                </button>
+
+                
+              </div>
+            </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-4 pb-3 space-y-1">
+            <div className="px-2 pt-2 pb-3 space-y-1">
               { navigation.map((item) => (
                 <Disclosure.Button
                   key={ item.name }
                   as="a"
                   href={ item.href }
                   className={ classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   ) }
                   aria-current={ item.current ? 'page' : undefined }
@@ -103,6 +113,7 @@ export default function Example() {
         </>
       ) }
     </Disclosure>
+    </header>
   );
 
 

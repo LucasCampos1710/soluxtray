@@ -1,12 +1,12 @@
 import SeloTray from '../components/seloTray'
-import Ecommerce from '../components/Ecommerce/Ecommerce'
-import Vantagens from '../components/Vantagens/Vantagens'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
+import Home from '../components/Home'
 
 export default function Example() {
   return (
     <div>
+      <Nav />
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -19,34 +19,18 @@ export default function Example() {
             >
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
-            <Nav />
-            <main className="mt-10 pt-16 mx-auto max-w-7xl px-4 sm:mt-20 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <main className="mt-10 pt-7 mx-auto max-w-7xl px-4 sm:mt-20 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">Quer aumentar suas vendas,</span>{ ' ' }
-                  <span className="block text-indigo-600 xl:inline">mas ainda não criou sua loja virtual?</span>
+                <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                  <span className="block xl:inline">Somos especialistas na criação </span>{ ' ' }
+                  <span className="block text-violet-600 xl:inline">de lojas virtuais de alta performance.</span>
                 </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-commerce para o seu negocio.
+                <p className="mt-3 text-base font-semibold text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  Layouts modernos, integração com os maiores marketplaces e
+                  os melhores recursos para personalizar seu e-commerce.
+
                 </p>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div className="rounded-md shadow">
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                    >
-                      Saiba Mais
-                    </a>
-                  </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                    >
-                      Live demo
-                    </a>
-                  </div>
-                </div>
+                
               </div>
             </main>
           </div>
@@ -59,8 +43,7 @@ export default function Example() {
           />
         </div>
       </div>
-      <Ecommerce />
-      <Vantagens />
+      <Home />
       <Footer />
       <SeloTray />
     </div>

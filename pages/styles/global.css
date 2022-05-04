@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+.border-bg {
+  border-top: 2px solid #FFB000;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}

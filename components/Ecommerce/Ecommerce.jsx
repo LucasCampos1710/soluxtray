@@ -1,4 +1,4 @@
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { AnnotationIcon, ClockIcon, SearchIcon, ChartBarIcon, GlobeIcon } from '@heroicons/react/outline'
 
 export default function Ecommerce() {
 
@@ -7,30 +7,30 @@ export default function Ecommerce() {
         name: 'Vendas sem Barreiras',
       description:
       'Seu e-commerce (LOJA VIRTUAL) vai estar em todos os lugares, sem barreiras físicas. Você pode vender para todo Brasil.',
-      icon: GlobeAltIcon,
+      icon: ChartBarIcon,
   },
       {
         name: 'Aberta 24 horas por dia!',
       description:
       'Um e-commerce não tira folga NUNCA, sua LOJA VIRTUAL estará aberta o ano todo, 24 horas por dia, e você pode vender a todo momento!',
-      icon: ScaleIcon,
+      icon: ClockIcon,
   },
       {
         name: 'Liberdade',
       description:
       'A liberdade é um dos principais motivos para ter e-commerce (LOJA VIRTUAL). Você pode gerenciar sua loja de qualquer outro lugar.',
-      icon: LightningBoltIcon,
+      icon: GlobeIcon,
   },
       {
         name: 'Mais Facilidade para seus Clientes',
         description:
         'Os clientes amam conveniência e com um e-commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
-        icon: AnnotationIcon,
+        icon: SearchIcon,
         },
       ]
 
   return (
-    <section className="bg-gray-50">
+    <section className="bg-cyan-50">
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
@@ -48,7 +48,7 @@ export default function Ecommerce() {
               { features.map((feature) => (
                 <div key={ feature.name } className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tl from-cyan-600 to-violet-800 text-white">
                       <feature.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{ feature.name }</p>

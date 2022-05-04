@@ -1,31 +1,31 @@
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { ChartSquareBarIcon, TruckIcon, CreditCardIcon, TableIcon } from '@heroicons/react/outline'
 
 export default function Vantagens() {
 
       const features = [
       {
-        name: 'Vendas sem Barreiras',
+        name: 'Canais de venda',
       description:
-      'Seu e-commerce (LOJA VIRTUAL) vai estar em todos os lugares, sem barreiras físicas. Você pode vender para todo Brasil.',
-      icon: GlobeAltIcon,
+      'Você podera vender nos maiores MARKETPLACES do país, com a facilidade de integrar sua loja aos MARKETPLACES mais importantes do Brasil.',
+      icon: ChartSquareBarIcon,
   },
       {
-        name: 'Aberta 24 horas por dia!',
+        name: 'Frete',
       description:
-      'Um e-commerce não tira folga NUNCA, sua LOJA VIRTUAL estará aberta o ano todo, 24 horas por dia, e você pode vender a todo momento!',
-      icon: ScaleIcon,
+      'Integramos com as maiores e melhores transportadoras do país, afim de você ter o melhor valor a oferecer ao seu cliente',
+      icon: TruckIcon,
   },
       {
-        name: 'Liberdade',
+        name: 'Meios de Pagamento',
       description:
-      'A liberdade é um dos principais motivos para ter e-commerce (LOJA VIRTUAL). Você pode gerenciar sua loja de qualquer outro lugar.',
-      icon: LightningBoltIcon,
+      'Trabalhamos com todos os meios de pagamentos, como Yapay, Pagseguro, Rede, Getnet, Cielo, entre outras opções.',
+      icon: CreditCardIcon,
   },
       {
-        name: 'Mais Facilidade para seus Clientes',
+        name: 'Integração',
         description:
-        'Os clientes amam conveniência e com um e-commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
-        icon: AnnotationIcon,
+        'Integramos sua loja FISICA com a sua loja VIRTUAL (ERP) e você terá acesso a todos os dados da sua loja FISICA.',
+        icon: TableIcon,
         },
       ]
 
@@ -34,12 +34,12 @@ export default function Vantagens() {
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h1 className="text-4xl text-indigo-600 font-semibold tracking-wide uppercase">Por que Contratar a</h1>
+            <h1 className="text-4xl text-indigo-600 font-semibold tracking-wide uppercase">Por que Contratar um</h1>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Solux Creative?
+              e-Commerce?
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Listamos abaixo alguns dos motivos para você ter um E-commerce.
+              Listamos abaixo alguns dos motivos para ter uma loja com a gente.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Vantagens() {
               { features.map((feature) => (
                 <div key={ feature.name } className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tl from-violet-800 to-cyan-600 text-white">
                       <feature.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{ feature.name }</p>
