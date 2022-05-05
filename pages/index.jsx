@@ -27,7 +27,7 @@ export default function Example() {
                 </h1>
                 <p className="mt-3 text-base font-semibold text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Layouts modernos, integração com os maiores marketplaces e
-                  os melhores recursos para personalizar seu e-commerce.
+                  os melhores recursos para personalizar seu e-Commerce.
 
                 </p>
                 

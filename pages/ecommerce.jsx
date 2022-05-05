@@ -17,12 +17,12 @@ export default function Example() {
                   <span className="block  xl:inline">mas ainda não criou sua loja virtual?</span>
                 </h1>
                 <p className="mt-4 text-xl text-white">
-                  A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-commerce para o seu negocio.
+                  A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-Commerce para o seu negocio.
                 </p>
                 <div className=" mt-5 sm:mt-8 sm:flex sm:justify-center">
                   <div className="rounded-md shadow">
                     <a
-                      href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20uma%20demonstração%20da%20plataforma%20de%20e-commerce"
+                      href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20uma%20demonstração%20da%20plataforma%20de%20e-Commerce"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-tl from-cyan-600 to-violet-700 hover:bg-gradient-to-tr from-violet-700 to-cyan-600 hover:brightness-150 md:py-4 md:text-lg md:px-10"
                     >
                       Solicite uma demonstração
@@ -75,7 +75,7 @@ export default function Example() {
                   <span className="block text-indigo-600 xl:inline">mas ainda não criou sua loja virtual?</span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-commerce para o seu negocio.
+                  A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-Commerce para o seu negocio.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center">
                   <div className="rounded-md shadow">

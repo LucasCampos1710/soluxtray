@@ -6,25 +6,25 @@ export default function Ecommerce() {
       {
         name: 'Vendas sem Barreiras',
       description:
-      'Seu e-commerce (LOJA VIRTUAL) vai estar em todos os lugares, sem barreiras físicas. Você pode vender para todo Brasil.',
+      'Seu e-Commerce (LOJA VIRTUAL) vai estar em todos os lugares, sem barreiras físicas. Você pode vender para todo Brasil.',
       icon: ChartBarIcon,
   },
       {
         name: 'Aberta 24 horas por dia!',
       description:
-      'Um e-commerce não tira folga NUNCA, sua LOJA VIRTUAL estará aberta o ano todo, 24 horas por dia, e você pode vender a todo momento!',
+      'Um e-Commerce não tira folga NUNCA, sua LOJA VIRTUAL estará aberta o ano todo, 24 horas por dia, e você pode vender a todo momento!',
       icon: ClockIcon,
   },
       {
         name: 'Liberdade',
       description:
-      'A liberdade é um dos principais motivos para ter e-commerce (LOJA VIRTUAL). Você pode gerenciar sua loja de qualquer outro lugar.',
+      'A liberdade é um dos principais motivos para ter e-Commerce (LOJA VIRTUAL). Você pode gerenciar sua loja de qualquer outro lugar.',
       icon: GlobeIcon,
   },
       {
         name: 'Mais Facilidade para seus Clientes',
         description:
-        'Os clientes amam conveniência e com um e-commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
+        'Os clientes amam conveniência e com um e-Commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
         icon: SearchIcon,
         },
         {
@@ -58,12 +58,12 @@ export default function Ecommerce() {
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h1 className="text-4xl text-indigo-600 font-semibold tracking-wide uppercase">Por que eu devo ter um E-commerce</h1>
+            <h1 className="text-4xl text-indigo-600 font-semibold tracking-wide uppercase">Por que eu devo ter um e-Commerce</h1>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               (Loja Virtual)?
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Listamos abaixo alguns dos motivos para você ter um E-commerce.
+              Listamos abaixo alguns dos motivos para você ter um e-Commerce.
             </p>
           </div>
 
