@@ -33,17 +33,9 @@ export default function Vantagens() {
     <section className="bg-white">
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
-            <h1 className="text-4xl text-indigo-600 font-semibold tracking-wide uppercase">Por que Contratar um</h1>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              e-Commerce?
-            </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Listamos abaixo alguns dos motivos para ter uma loja com a gente.
-            </p>
-          </div>
+          
 
-          <div className="mt-10">
+          <div className="">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
               { features.map((feature) => (
                 <div key={ feature.name } className="relative">

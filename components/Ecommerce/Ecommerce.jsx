@@ -1,4 +1,4 @@
-import { AnnotationIcon, ClockIcon, SearchIcon, ChartBarIcon, GlobeIcon } from '@heroicons/react/outline'
+import { ClockIcon, SearchIcon, ChartBarIcon, GlobeIcon, TableIcon, CreditCardIcon, TruckIcon, ChartSquareBarIcon } from '@heroicons/react/outline'
 
 export default function Ecommerce() {
 
@@ -26,6 +26,30 @@ export default function Ecommerce() {
         description:
         'Os clientes amam conveniência e com um e-commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
         icon: SearchIcon,
+        },
+        {
+          name: 'Canais de venda',
+          description:
+            'Você podera vender nos maiores MARKETPLACES do país, com a facilidade de integrar sua loja aos MARKETPLACES mais importantes do Brasil.',
+          icon: ChartSquareBarIcon,
+        },
+        {
+          name: 'Frete',
+          description:
+            'Integramos com as maiores e melhores transportadoras do país, afim de você ter o melhor valor a oferecer ao seu cliente',
+          icon: TruckIcon,
+        },
+        {
+          name: 'Meios de Pagamento',
+          description:
+            'Trabalhamos com todos os meios de pagamentos, como Yapay, Pagseguro, Rede, Getnet, Cielo, entre outras opções.',
+          icon: CreditCardIcon,
+        },
+        {
+          name: 'Integração',
+          description:
+            'Integramos sua loja FISICA com a sua loja VIRTUAL (ERP) e você terá acesso a todos os dados da sua loja FISICA.',
+          icon: TableIcon,
         },
       ]
 

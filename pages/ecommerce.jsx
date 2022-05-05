@@ -1,6 +1,5 @@
 import SeloTray from '../components/seloTray'
 import Ecommerce from '../components/Ecommerce/Ecommerce'
-import Vantagens from '../components/Vantagens/Vantagens'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 
@@ -103,7 +102,6 @@ export default function Example() {
        
       </div> */}
       <Ecommerce />
-      <Vantagens />
       <Footer />
       <SeloTray />
     </div>
