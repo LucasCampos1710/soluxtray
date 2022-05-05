@@ -38,7 +38,7 @@ export default function Example() {
                 <div className="flex-shrink-0 flex items-center">
                   <a href="/">
                   <img
-                    className="block lg:hidden h-20 w-auto"
+                    className="flex justify-center items-center relative right-5 lg:hidden h-20 w-auto"
                       src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png"
                     alt="Solux Creative"
                   />
@@ -83,7 +83,7 @@ export default function Example() {
                     onClick={ () => window.location.href = "https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce" }
                   className="block lg:hidden bg-gradient-to-tr from-cyan-500 to-violet-800 p-3 rounded-lg text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
                 >
-                  Consultor
+                  Contato
                   <span className="sr-only">Falar com um consultor</span>
                 </button>
 

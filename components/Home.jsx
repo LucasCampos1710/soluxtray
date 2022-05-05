@@ -80,7 +80,7 @@ export default function About() {
                   <div className="absolute  sm:top-0 sm:translate-x-8 lg:left-1/3 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 ">
-                        <div className=" rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
+                        <div className=" rounded-lg overflow-hidden opacity-0 lg:opacity-100">
                           <img
                             src="https://res.cloudinary.com/lucascampos/image/upload/v1651171255/3240_qklgue.png"
                             alt=""
