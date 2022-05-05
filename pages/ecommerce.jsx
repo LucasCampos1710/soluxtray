@@ -43,7 +43,7 @@ export default function Example() {
                     <div className="absolute  sm:top-0 sm:translate-x-8 lg:left-96 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                       <div className="flex items-center">
                         <div className="flex-shrink-0 ">
-                          <div className=" rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
+                          <div className=" rounded-lg overflow-hidden opacity-0 md:opacity-100">
                             <img
                               src="https://res.cloudinary.com/lucascampos/image/upload/v1651237293/25Z_2012.w003.n001.81C.p6.81-_Convertido_s_kvb4zg.png"
                               alt=""

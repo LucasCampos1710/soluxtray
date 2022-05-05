@@ -100,21 +100,19 @@ export default function About() {
       </div>
     </section>
 
-      <section className='left-48 relative bg-gradient-to-tl from-cyan-500 to-violet-800 rounded-tl-full rounded-br-full  w-8/12 bottom-16'>
+      <section className='md:left-48 md:relative bg-gradient-to-tl from-cyan-500 to-violet-800 md:rounded-tl-full md:rounded-br-full  md:w-8/12 bottom-16 '>
         <div>
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl ml-10">
               <span className="block">Nos envie uma mensagem contando sua </span>
               <span className="block text-white">necessidade que teremos o prazer em te ajudar.</span>
             </h2>
-            <div className="relative right-10 mt-8 flex lg:mt-0 lg:flex-shrink-0 ">
-              <div className="inline-flex rounded-md shadow">
-                
-              </div>
-              <div className="ml-3 inline-flex rounded-md shadow">
+            <div className="relative md:right-10  mt-8 flex :justify-center :text-center lg:mt-0 lg:flex-shrink-0 ">
+              
+              <div className="md:ml-3 md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-24 relative md:left-0">
                 <a
                   href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-cyan-500 hover:text-white"
+                  className="md:inline-flex sm:flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-cyan-500 hover:text-white"
                 >
                   Fale com um consultor
                 </a>
