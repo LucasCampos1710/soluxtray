@@ -6,7 +6,7 @@ export default function About() {
     {
       name: 'Integrador',
       description:
-        'Criamos um integrador juntamente com a Athos Labs, permitindo assim que o Lojista que já possua um sistema Athos implantado, possa vender na Loja Física e Virtual, compartilhando do mesmo estoque, com baixa automática e cadastro unificado, evitando o re- trabalho e possíveis erros.',
+        'Criamos um integrador juntamente com a Athos Labs, permitindo assim que o Lojista que já possua um sistema Athos implantado, possa vender na Loja Física e Virtual, compartilhando do mesmo estoque, com baixa automática e cadastro unificado, evitando o re-trabalho e possíveis erros.',
       icon: GlobeAltIcon,
     },
     {
@@ -37,7 +37,7 @@ export default function About() {
     {
       name: 'Treinamentos',
       description:
-        'Nosso treinamento é On-Line, personalizado e contínuo.',
+        'Nossos treinamentos são On-Line, personalizado e permanentes.',
       icon: AcademicCapIcon,
     },
     {
@@ -49,7 +49,7 @@ export default function About() {
     {
       name: 'Parceiro Certificado',
       description:
-        'Somos parceiros certifcado da plataforma Tray em criação de layouts, suporte e integração.',
+        'Possuimos certificações nas melhores plataformas, layouts e ERP´s do mercado.',
       icon: AcademicCapIcon,
     },
   ]
