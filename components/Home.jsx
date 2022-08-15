@@ -15,11 +15,11 @@ export default function About() {
         'Para novos clientes que não estão satisfeitos com o sistema, plataforma e/ou atendimento atual,temos um plano de incentivo para substituição dos sistemas com a possibilidade de importação do cadastro de produtos, clientes e fornecedores para os nossos sistemas(ERP) + PDV(Ponto de Venda) e Loja Virtual.',
       icon: LightningBoltIcon,
     },
-    
+
     {
-      name: 'Sistema Bling',
+      name: 'HUB Maketplace',
       description:
-        'Somos parceiros ERP Bling (ON-LINE) e integramos sua Loja Virtual com a Loja Física também através dele.',
+        'Somos parceiros da LEXOS HUB onde você podera ter acesso aos maiores marketplaces e integramos sua Loja Virtual.',
       icon: TerminalIcon,
     },
     {
@@ -37,7 +37,7 @@ export default function About() {
     {
       name: 'Treinamentos',
       description:
-        'Nossos treinamentos são On-Line, personalizado e permanentes.',
+        'Nossos treinamentos são On-Line, personalizados e permanentes.',
       icon: AcademicCapIcon,
     },
     {
@@ -56,49 +56,49 @@ export default function About() {
 
   return (
     <>
-    <section className="bg-violet-500">
-      <div className="relative overflow-hidden">
-        <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-          <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-            <div className="sm:max-w-xl">
-              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-                Um mundo de possibilidades para o seu negócio
-              </h1>
-              <p className="mt-4 text-xl text-white">
-                A Solux Creative tem em seu DNA, o avanço tecnológico e capacita seus clientes/parceiros para utilizar a plataforma de e-Commerce da
-                maneira mais prática possível e sem complicações, com profissionais com mais de 30 anos de experiência em Tecnologia de Ponta.
+      <section className="bg-violet-500">
+        <div className="relative overflow-hidden">
+          <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+            <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
+              <div className="sm:max-w-xl">
+                <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
+                  Um mundo de possibilidades para o seu negócio
+                </h1>
+                <p className="mt-4 text-xl text-white">
+                  A Solux Creative tem em seu DNA, o avanço tecnológico e capacita seus clientes/parceiros para utilizar a plataforma de e-Commerce da
+                  maneira mais prática possível e sem complicações, com profissionais com mais de 30 anos de experiência em Tecnologia de Ponta.
 
-              </p>
-            </div>
-            <div>
-              <div className="mt-10">
-                {/* Decorative image grid */ }
-                <div
-                  aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
-                >
-                  <div className="absolute  sm:top-0 sm:translate-x-8 lg:left-1/3 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                    <div className="flex items-center">
-                      <div className="flex-shrink-0 ">
-                        <div className=" rounded-lg overflow-hidden opacity-0 lg:opacity-100">
-                          <img
-                            src="https://res.cloudinary.com/lucascampos/image/upload/v1651171255/3240_qklgue.png"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
+                </p>
+              </div>
+              <div>
+                <div className="mt-10">
+                  {/* Decorative image grid */ }
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
+                  >
+                    <div className="absolute  sm:top-0 sm:translate-x-8 lg:left-1/3 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                      <div className="flex items-center">
+                        <div className="flex-shrink-0 ">
+                          <div className=" rounded-lg overflow-hidden opacity-0 lg:opacity-100">
+                            <img
+                              src="https://res.cloudinary.com/lucascampos/image/upload/v1651171255/3240_qklgue.png"
+                              alt=""
+                              className="w-full h-full object-center object-cover"
+                            />
+                          </div>
+
                         </div>
-                        
                       </div>
                     </div>
                   </div>
-                </div>
 
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
       <section className='md:left-48 md:relative bg-gradient-to-tl from-cyan-500 to-violet-800 md:rounded-tl-full md:rounded-br-full  md:w-8/12 bottom-16 '>
         <div>
@@ -108,7 +108,7 @@ export default function About() {
               <span className="block text-white">necessidade que teremos o prazer em te ajudar.</span>
             </h2>
             <div className="relative md:right-10  mt-8 flex :justify-center :text-center lg:mt-0 lg:flex-shrink-0 ">
-              
+
               <div className="md:ml-3 md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-24 relative md:left-0">
                 <a
                   href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
@@ -122,38 +122,38 @@ export default function About() {
         </div>
       </section>
 
-      
+
 
       <section className="bg-white">
-          <div className="py-12 z-10">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="lg:text-center">
+        <div className="py-12 z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-center">
               <h1 className="text-3xl text-indigo-600 font-semibold tracking-wide"> Nossas plataformas estão preparadas para você vender em todos os canais.</h1>
-               
-                <p className="mt-4 max-w-xlxl text-xl text-gray-500 lg:mx-auto">
+
+              <p className="mt-4 max-w-xlxl text-xl text-gray-500 lg:mx-auto">
                 Nossa sede está localizada em Caraguatatuba, Litoral Norte de São Paulo e atendemos clientes em todo o Brasil.
               </p>
-                
-              </div>
 
-              <div className="mt-10">
-                <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 ">
-                  { features.map((feature) => (
-                    <div key={ feature.name } className="relative">
-                      <dt>
-                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-violet-600 to-cyan-500 text-white">
-                          <feature.icon className="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{ feature.name }</p>
-                      </dt>
-                      <dd className="mt-2 ml-16 text-base text-gray-500">{ feature.description }</dd>
-                    </div>
-                  )) }
-                </dl>
-              </div>
+            </div>
+
+            <div className="mt-10">
+              <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 ">
+                { features.map((feature) => (
+                  <div key={ feature.name } className="relative">
+                    <dt>
+                      <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-violet-600 to-cyan-500 text-white">
+                        <feature.icon className="h-6 w-6" aria-hidden="true" />
+                      </div>
+                      <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{ feature.name }</p>
+                    </dt>
+                    <dd className="mt-2 ml-16 text-base text-gray-500">{ feature.description }</dd>
+                  </div>
+                )) }
+              </dl>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
     </>
   )
