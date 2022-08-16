@@ -3,6 +3,13 @@ import SeloTray from '../components/seloTray'
 
 const callouts = [
   {
+    name: 'Lolô Bolsas',
+    description: 'Loja especializada em bolsas personalizadas',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656730/2022-08-16_3_vcajjx.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Lolô Bolsas criada pela Solux Creative',
+    href: 'https://www.lolobolsas.com.br',
+  },
+  {
     name: 'Central Doces',
     description: 'Umas das melhores lojas de confeitaria da região de São José dos Campos',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1643038351/2022-01-24_5_hlkgof.png',
@@ -33,7 +40,7 @@ const callouts = [
   {
     name: 'Toledo Surf',
     description: 'Loja virtual do surfista Filipe Toledo.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274845/2022-04-06_3_wnkd1y.png',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
     href: 'https://www.filipetoledo.com.br',
   },
@@ -42,7 +49,7 @@ const callouts = [
     description: 'Loja especializada em vendas de Óculos',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274845/2022-04-06_4_meomp1.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Tnc&co criada pela Solux Creative',
-    href: 'https://www.tncsunglass.com.br',
+    //href: 'https://www.tncsunglass.com.br',
   },
   {
     name: 'All Presents',
@@ -63,7 +70,7 @@ const callouts = [
     description: 'Loja especializada em vendas de castanhas, cereias e etc...',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_8_bf2kqj.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da LAF ATACADO/VAREJO criada pela Solux Creative',
-    href: 'https://www.lafatacado.com.br',
+    //href: 'https://www.lafatacado.com.br',
   },
   {
     name: 'Familia Pet',
@@ -84,7 +91,7 @@ const callouts = [
     description: 'Nossa loja chega para demonstrar que a elegância e requinte se complementam à  beleza interior de toda mulher',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_12_fpjm1j.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Tactus Store criada pela Solux Creative',
-    href: 'https://www.tactusstore.com.br',
+   // href: 'https://www.tactusstore.com.br',
   },
   {
     name: 'Coco Beach',
@@ -110,7 +117,7 @@ const callouts = [
   {
     name: 'Agencia Somos a Fabula',
     description: 'Site institucional para a Agência Somos a Fabula',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_16_hzf3qh.png',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656730/2022-08-16_2_azlynx.png',
     imageAlt: 'Imagem do site da Agencia Somos a Fabula criada pela Solux Creative',
     href: 'https://www.somosafabula.com.br',
   },
