@@ -188,7 +188,7 @@ export default function Clients() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/logo.svg" alt="Lucas Campos" className="h-10 ml-2" />
+          <img src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png" alt="Lucas Campos" className="h-10 ml-2" />
         </a>
       </footer>
       <SeloTray />
