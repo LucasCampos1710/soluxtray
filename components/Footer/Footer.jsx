@@ -15,14 +15,14 @@ export default function Footer() {
         </div>
         <div>
           <h1 className="font-semibold">Financeiro</h1>
-          <p className="text-violet-700 font-semibohttps://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.pngld">Whatsapp: <a href="https://api.whatsapp.com/send?phone=5512991059844" className="text-gray-500 text-base">(12) 9 9105-9844</a></p>
+          <p className="text-violet-700 font-semibold">Whatsapp: <a href="https://api.whatsapp.com/send?phone=5512991059844" className="text-gray-500 text-base">(12) 9 9105-9844</a></p>
           <p className="text-violet-700 font-semibold">Email:<a href="mailto:financeiro@soluxcreative.com.br" className="text-gray-500 text-base">financeiro@soluxcreative.com.br</a></p>
         </div>
       </div>
 
       < div className="flex items-center justify-center">
         <span>Powered by{ ' ' }
-          <img src="" alt="Lucas Campos" className="h-20 ml-2" />
+          <img src="https://res.cloudinary.com/lucascampos/image/upload/v1628081474/Logo-Solux-Creative-Color_scwv0r.png" alt="Lucas Campos" className="h-20 ml-2" />
         </span>
       </div>
 
