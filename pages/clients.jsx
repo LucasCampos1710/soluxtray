@@ -4,11 +4,11 @@ import SeloTray from '../components/seloTray'
 
 const callouts = [
   {
-    name: 'Lolô Bolsas',
-    description: 'Loja especializada em bolsas personalizadas',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656730/2022-08-16_3_vcajjx.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Lolô Bolsas criada pela Solux Creative',
-    href: 'https://www.lolobolsas.com.br',
+    name: 'Toledo Surf',
+    description: 'Loja virtual do surfista campeão Filipe Toledo.',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
+    href: 'https://www.filipetoledo.com.br',
   },
   {
     name: 'Central Doces',
@@ -25,6 +25,14 @@ const callouts = [
     href: 'https://www.mariacalopsita.com.br',
   },
   {
+    name: 'Lolô Bolsas',
+    description: 'Loja especializada em bolsas personalizadas',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656730/2022-08-16_3_vcajjx.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Lolô Bolsas criada pela Solux Creative',
+    href: 'https://www.lolobolsas.com.br',
+  },
+  
+  {
     name: 'blue Lord',
     description: 'Marca contemporânea com inspiração britânica que compartilha em suas coleções a essência do polo equestre',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649273620/2022-04-06_1_wslecd.png',
@@ -38,20 +46,8 @@ const callouts = [
     imageAlt: 'Imagem da loja virtual(e-commerce) da Casa da Madeira criada pela Solux Creative',
     href: 'https://www.casadamadeira.com.br',
   },
-  {
-    name: 'Toledo Surf',
-    description: 'Loja virtual do surfista Filipe Toledo.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
-    href: 'https://www.filipetoledo.com.br',
-  },
-  {
-    name: 'TNC',
-    description: 'Loja especializada em vendas de Óculos',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274845/2022-04-06_4_meomp1.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Tnc&co criada pela Solux Creative',
-    //href: 'https://www.tncsunglass.com.br',
-  },
+  
+  
   {
     name: 'All Presents',
     description: 'Loja especializada em objetos de decoração, acessórios e presentes.',
@@ -59,20 +55,8 @@ const callouts = [
     imageAlt: 'Imagem da loja virtual(e-commerce) da All Presentes criada pela Solux Creative',
     href: 'https://www.lojaallpresentes.com.br',
   },
-  {
-    name: 'Loja Yumi Pesca',
-    description: 'Loja especializada em vendas de artigos para pesca',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_6_xlxr0r.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Yumi Pesca criada pela Solux Creative',
-    href: 'https://www.lojayumipesca.com.br',
-  },
-   {
-    name: 'LAF Atacado',
-    description: 'Loja especializada em vendas de castanhas, cereias e etc...',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_8_bf2kqj.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da LAF ATACADO/VAREJO criada pela Solux Creative',
-    //href: 'https://www.lafatacado.com.br',
-  },
+ 
+   
   {
     name: 'Familia Pet',
     description: 'Loja especializada em vendas de produtos para Pets',
@@ -94,13 +78,7 @@ const callouts = [
     imageAlt: 'Imagem da loja virtual(e-commerce) da Tactus Store criada pela Solux Creative',
    // href: 'https://www.tactusstore.com.br',
   },
-  {
-    name: 'Coco Beach',
-    description: 'Coco Beach vendas de VAREJO moda praia e casual.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_13_je85x8.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Coco beach criada pela Solux Creative',
-    href: 'https://www.cocobeach.com.br',
-  },
+ 
   {
     name: 'Padaria O Segredo dos Doces',
     description: 'Site instituicional para a Padaria O Segredo dos Doces',
