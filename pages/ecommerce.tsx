@@ -3,17 +3,17 @@ import Ecommerce from '../components/Ecommerce/Ecommerce'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 
-export default function Example() {
+export default function Ecommerces() {
   return (
     <div>
-            <Nav />
+      <Nav />
       <main className="bg-fuchsia-900">
         <div className="relative overflow-hidden">
           <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
               <div className="sm:max-w-xl">
                 <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">Quer aumentar suas vendas,</span>{ ' ' }
+                  <span className="block xl:inline">Quer aumentar suas vendas,</span>{' '}
                   <span className="block  xl:inline">mas ainda não criou sua loja virtual?</span>
                 </h1>
                 <p className="mt-4 text-xl text-white">
@@ -28,13 +28,13 @@ export default function Example() {
                       Solicite uma demonstração
                     </a>
                   </div>
-                  
+
                 </div>
               </div>
-              
+
               <div>
                 <div className="mt-10">
-                  {/* Decorative image grid */ }
+                  {/* Decorative image grid */}
                   <div
                     aria-hidden="true"
                     className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
@@ -58,11 +58,11 @@ export default function Example() {
                 </div>
               </div>
             </div>
-            
+
           </div>
-          
+
         </div>
-        
+
       </main>
       {/* <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
