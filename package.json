@@ -6,9 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.0",
-    "@heroicons/react": "^1.0.3",
+    "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^2.0.11",
     "next": "12.3.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
