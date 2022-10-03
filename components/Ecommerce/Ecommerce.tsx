@@ -1,4 +1,4 @@
-import { ClockIcon, SearchIcon, ChartBarIcon, GlobeIcon, TableIcon, CreditCardIcon, TruckIcon, ChartSquareBarIcon } from '@heroicons/react/outline'
+import { ClockIcon, ChartBarIcon, GlobeAmericasIcon, TableCellsIcon, CreditCardIcon, TruckIcon, ChartBarSquareIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 
 export default function Ecommerce() {
 
@@ -19,19 +19,19 @@ export default function Ecommerce() {
         name: 'Liberdade',
       description:
       'A liberdade é um dos principais motivos para ter e-Commerce (LOJA VIRTUAL). Você pode gerenciar sua loja de qualquer outro lugar.',
-      icon: GlobeIcon,
+      icon: GlobeAmericasIcon,
   },
       {
         name: 'Mais Facilidade para seus Clientes',
         description:
         'Os clientes amam conveniência e com um e-Commerce (LOJA VIRTUAL) eles tem isso. Para chegar a sua Loja virtual e comprar o seu produto o cliente não precisa sair de casa, ele evita o stress de filas, trânsito, estacionamentos lotados. O cliente consegue fazer a pesquisa e encontrar sua Loja virtual de uma forma simples e rápida.',
-        icon: SearchIcon,
+        icon: MagnifyingGlassIcon,
         },
         {
           name: 'Canais de venda',
           description:
             'Você podera vender nos maiores MARKETPLACES do país, com a facilidade de integrar sua loja aos MARKETPLACES mais importantes do Brasil.',
-          icon: ChartSquareBarIcon,
+          icon: ChartBarSquareIcon,
         },
         {
           name: 'Frete',
@@ -49,7 +49,7 @@ export default function Ecommerce() {
           name: 'Integração',
           description:
             'Integramos sua loja FISICA com a sua loja VIRTUAL (ERP) e você terá acesso a todos os dados da sua loja FISICA.',
-          icon: TableIcon,
+          icon: TableCellsIcon,
         },
       ]
 
