@@ -3,60 +3,47 @@ import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 import BannerHead from '../components/Popup/BannerHead'
 
-import { Globe, Lightning, Terminal, Command, ChatCenteredText, Brain, Coins, CircleWavyCheck, CheckCircle } from 'phosphor-react';
+import { CircleWavyCheck, CheckCircle } from 'phosphor-react';
+import Image from 'next/image';
+
+type Description = {
+  name: string;
+  title: string;
+  description: [
+    descrip: string,
+  ],
+  icon: string;
+  imgUrl: string;
+}
 
 export default function Home() {
 
   const features = [
     {
-      name: 'Integrador',
-      description:
-        'Criamos um integrador juntamente com a Athos Labs, permitindo assim que o Lojista que já possua um sistema Athos implantado, possa vender na Loja Física e Virtual, compartilhando do mesmo estoque, com baixa automática e cadastro unificado, evitando o re-trabalho e possíveis erros.',
-      icon: Globe,
+      name: 'Multicanal',
+      title: 'Venda seus produtos em diversos canais',
+      description: [
+        { text: 'Seus produtos à venda nas maiores lojas do Brasil como Magalu, Shopee, Mercado Livre e muitas outras.' },
+        { text: 'Habilite a sacolinha do Instagram, Google Shopping e Facebook Shop e exiba seus produtos para milhares de pessoas todos os dias.' },
+        { text: 'Venda no computador, tablet ou celular.' }
+      ],
+      icon: CircleWavyCheck,
+      imgUrl: 'https://res.cloudinary.com/lucascampos/image/upload/v1664826889/canais-loja-virtual.-v2-300x211_ffu691.webp'
     },
     {
-      name: 'Migração de Sistemas',
-      description:
-        'Para novos clientes que não estão satisfeitos com o sistema, plataforma e/ou atendimento atual,temos um plano de incentivo para substituição dos sistemas com a possibilidade de importação do cadastro de produtos, clientes e fornecedores para os nossos sistemas(ERP) + PDV(Ponto de Venda) e Loja Virtual.',
-      icon: Lightning,
+      name: 'Marketing',
+      title: 'Crie diversas promoções e ofereça conteúdos de qualidade',
+      description: [
+        { text: 'Landing pages fantásticas.' },
+        { text: 'Ofereça Promoções com cupons de descopnto e frete grátis.' },
+        { text: 'Conecte sua loja às redes sociais' },
+        { text: 'Tenha uma loja otimizada para os mecanismos de busca (SEO) e melhore o seu posicionamento no Google.' },
+        { text: 'Tenha seu próprio blog integrado à sua loja virtual' },
+      ],
+      icon: CircleWavyCheck,
+      imgUrl: 'https://res.cloudinary.com/lucascampos/image/upload/v1664827639/otimizado-para-marketing-e-seo-800-242x300_nsbhcy.webp'
     },
 
-    {
-      name: 'HUB Maketplace',
-      description:
-        'Somos parceiros da LEXOS HUB onde você podera ter acesso aos maiores marketplaces e integramos sua Loja Virtual.',
-      icon: Terminal,
-    },
-    {
-      name: 'Configurações sem preocupação',
-      description:
-        'Todas as configurações e parametrizações da sua Loja Virtual, são realizadas pelo nosso time de implantação.',
-      icon: Command,
-    },
-    {
-      name: 'Suporte Especializado',
-      description:
-        'O Suporte técnico da Solux Creative é Humanizado, sem burocracia ou demora no atendimento e soluções de dúvidas ou problemas.',
-      icon: ChatCenteredText,
-    },
-    {
-      name: 'Treinamentos',
-      description:
-        'Nossos treinamentos são On-Line, personalizados e permanentes.',
-      icon: Brain,
-    },
-    {
-      name: 'Planos Personalizados',
-      description:
-        'Nossa mensalidade cabe no seu bolso, pois temos planos para administrar a partir de 50 produtos até ilimitado.',
-      icon: Coins,
-    },
-    {
-      name: 'Parceiro Certificado',
-      description:
-        'Possuimos certificações nas melhores plataformas, layouts e ERP´s do mercado.',
-      icon: CircleWavyCheck,
-    },
   ]
 
   return (
@@ -192,34 +179,34 @@ export default function Home() {
 
 
 
-      <section className="bg-white">
-        <div className="py-12 z-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="lg:text-center">
-              <h1 className="text-3xl text-indigo-600 font-semibold tracking-wide"> Nossas plataformas estão preparadas para você vender em todos os canais.</h1>
+      <section className="bg-white mb-10">
+        <div className="mt-10 ">
+          {features.map((feature) => (
+            <div key={feature.name} className="relative grid grid-cols-2 gap-6">
+              <Image
+                src={feature.imgUrl}
+                width={300}
+                height={150}
+                className='bg-cover p-4'
+              />
+              <div className='flex flex-col' >
+                <strong className='outline outline-offset-2 outline-cyan-300 rounded-full px-2 mb-4 w-24'>{feature.name}</strong>
 
-              <p className="mt-4 max-w-xlxl text-xl text-gray-500 lg:mx-auto">
-                Nossa sede está localizada em Caraguatatuba, Litoral Norte de São Paulo e atendemos clientes em todo o Brasil.
-              </p>
+                <strong className='text-2xl'>{feature.title}</strong>
 
+                <div>
+                  <ul>
+                    <li>
+                      <feature.icon size={32} color='#2da99b'/>
+                      {feature.description.text}
+                      </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+           
+          ))}
 
-            <div className="mt-10">
-              <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 ">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative">
-                    <dt>
-                      <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-violet-600 to-cyan-500 text-white">
-                        < feature.icon />
-                      </div>
-                      <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </div>
         </div>
       </section>
 
