@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "../components/Footer/Footer";
 
 export default function Revenda() {
@@ -8,20 +9,13 @@ export default function Revenda() {
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
             <a href="/" className="mb-6 sm:mx-auto">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-teal-accent-400">
-                <svg
-                  className="w-10 h-10 text-deep-purple-900"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="https://res.cloudinary.com/lucascampos/image/upload/v1645131437/Logo-Solux-Creative-Branco.2665e34.fd79d246bdb7afe0a235aa53d946f5be_adlnqc.png"
+                  width={300}
+                  height={150}
+                  alt="logo Solux Creative"
+                />
               </div>
             </a>
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -178,7 +172,7 @@ export default function Revenda() {
             <input id="name" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Nome"/>
             <label htmlFor="name" className="text-gray-700 text-left">Email</label>
            
-            <input id="email" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
+            <input id="email" type="email" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
             <label htmlFor="name" className="text-gray-700 text-left">Telefone</label>
             
             <input id="phone" type="number" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Telefone"/>
@@ -191,6 +185,17 @@ export default function Revenda() {
             <label htmlFor="name" className="text-gray-700 text-left">Você já trabalha com Digital</label>
             
             <input id="work" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Você ja trabalha na área digital"/>
+
+            <h2 className="text-left text-gray-700">Emite Nota Fiscal?</h2>
+            <div className="flex flex-row flex-wrap">
+            <input type="radio" name="sim" id="yes" value="yes" className="mr-2" />
+            <label htmlFor="yes" className="mr-5 text-gray-600">Sim</label>
+            <input type="radio" name="no" id="no" value="no" className="mr-2"/>
+            <label htmlFor="no" className="text-gray-600">Não</label>
+            </div>
+
+            <label htmlFor="experience" className="text-left text-gray-700">Resuma sua experiência na área</label>
+            <textarea name="experience" id="experience" cols="30" rows="10" className="bg-gray-800 rounded text-gray-100 p-3 focus:outline-none focus:border-teal-accent-700 focus:ring focus:ring-teal-accent-700" placeholder="Conte um pouco sobre sua experiência"></textarea>
 
             <button className="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-teal-accent-700 rounded-md sm:mx-2 hover:bg-teal-600 focus:outline-none focus:bg-teal-accent-500">
                 Solicitar mais informações
