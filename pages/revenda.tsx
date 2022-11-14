@@ -195,7 +195,7 @@ export default function Revenda() {
             </div>
 
             <label htmlFor="experience" className="text-left text-gray-700">Resuma sua experiência na área</label>
-            <textarea name="experience" id="experience" cols="30" rows="10" className="bg-gray-800 rounded text-gray-100 p-3 focus:outline-none focus:border-teal-accent-700 focus:ring focus:ring-teal-accent-700" placeholder="Conte um pouco sobre sua experiência"></textarea>
+            <textarea name="experience" id="experience" className="bg-gray-800 rounded text-gray-100 p-3 focus:outline-none focus:border-teal-accent-700 focus:ring focus:ring-teal-accent-700" placeholder="Conte um pouco sobre sua experiência"></textarea>
 
             <button className="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-teal-accent-700 rounded-md sm:mx-2 hover:bg-teal-600 focus:outline-none focus:bg-teal-accent-500">
                 Solicitar mais informações
