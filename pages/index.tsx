@@ -8,16 +8,16 @@ import { parseCookies, setCookie } from "nookies"
 export default function Index({cookies}) {
 const [isCookiesVisible, setIsCookiesVisible] = useState(true)
 
-PoliticPrivacity.getInitialProps = async function(ctx) {
- cookies = parseCookies(ctx)
+// PoliticPrivacity.getInitialProps = async function(ctx) {
+//  cookies = parseCookies(ctx)
 
-  setCookie(ctx, "fromGetInitialProps", "value", {
-    maxAge: 30 * 24 * 60 * 60,
-    path: "/"
-  })
+//   setCookie(ctx, "fromGetInitialProps", "value", {
+//     maxAge: 30 * 24 * 60 * 60,
+//     path: "/"
+//   })
 
-  return { cookies }
-}
+//   return { cookies }
+// }
 
 function handleCookieClick() {
   setIsCookiesVisible(false)
