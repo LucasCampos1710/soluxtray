@@ -1,9 +1,14 @@
+import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer/Footer";
 
 export default function Revenda() {
   return(
-    <div>
+    <>
+     <Head>
+        <title>Revenda Solux</title>
+      </Head>
+    <div className="bg-white dark:bg-gray-900">
     <div className="bg-deep-purple-accent-700">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
@@ -64,7 +69,7 @@ export default function Revenda() {
     </div>
   
 
-      <main>
+      <main className="bg-white">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
@@ -150,22 +155,18 @@ export default function Revenda() {
     </div>
       </main>
 
-      <section>
-        
-      </section>
-
+      
       <section className="bg-white dark:bg-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1de9b6" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-        <div className="max-w-3xl px-6 py-16 mx-auto text-center">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-teal-accent-400">
-        <span>
-        </span>
-            Somos especialistas na criação de lojas virtuais de alta performance.</h1>
+        <div className="max-w-3xl relative bottom-[22rem] px-6 py-16 mx-auto text-center">
+          <h1 className="text-3xl font-semibold text-gray-100">
+            Somos especialistas na criação de lojas virtuais de alta performance.
+            </h1>
         </div>
 
-    <div className="max-w-3xl px-6 py-16 mx-auto text-center">
-        <h1 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">Preencha o formulário abaixo e receba mais informações</h1>
-        <p className="max-w-md mx-auto mt-5 text-gray-500 dark:text-gray-400">Entre em contato</p>
+    <div className="max-w-3xl px-6  mx-auto text-center relative bottom-56">
+        <h1 className="text-3xl font-semibold text-gray-100 dark:text-teal-accent-400">Preencha o formulário abaixo e receba mais informações</h1>
+        <p className="max-w-md mx-auto mt-5 text-gray-800 dark:text-gray-400">Entre em contato</p>
 
         <div className="flex flex-col mt-8 space-y-3 ">
             <label htmlFor="name" className="text-gray-700 text-left">Nome</label>
@@ -205,5 +206,6 @@ export default function Revenda() {
 </section>
       <Footer />
     </div>
+    </>
   )
 }

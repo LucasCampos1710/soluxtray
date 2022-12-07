@@ -2,10 +2,14 @@ import SeloTray from '../components/seloTray'
 import Ecommerce from '../components/Ecommerce/Ecommerce'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
+import Head from 'next/head'
 
 export default function Ecommerces() {
   return (
     <div>
+       <Head>
+        <title>e-Commerce</title>
+      </Head>
       <Nav />
       <main className="bg-fuchsia-900">
         <div className="relative overflow-hidden">

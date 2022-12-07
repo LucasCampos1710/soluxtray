@@ -1,9 +1,35 @@
 import Image from "next/image";
+import { useState } from "react";
 import Footer from "../components/Footer/Footer";
+import PoliticPrivacity from "../components/Popup/PoliticPrivacity";
+import { parseCookies, setCookie } from "nookies"
 
-export default function Index() {
+
+export default function Index({cookies}) {
+const [isCookiesVisible, setIsCookiesVisible] = useState(true)
+
+PoliticPrivacity.getInitialProps = async function(ctx) {
+ cookies = parseCookies(ctx)
+
+  setCookie(ctx, "fromGetInitialProps", "value", {
+    maxAge: 30 * 24 * 60 * 60,
+    path: "/"
+  })
+
+  return { cookies }
+}
+
+function handleCookieClick() {
+  setIsCookiesVisible(false)
+}
+
   return (
     <>
+    <PoliticPrivacity 
+      visible={isCookiesVisible}
+      onClose={handleCookieClick}
+      getInitialProps={cookies}
+    />
       <main >
         <div className="min-h-screen">
           <div className="min-h-screen bg-[url('https://res.cloudinary.com/lucascampos/image/upload/v1664486140/bg-ecommerce_xa6lub.png')] bg-cover bg-no-repeat">

@@ -1,16 +1,19 @@
-import SeloTray from '../components/seloTray'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 import BannerHead from '../components/Popup/BannerHead'
 
 import { CircleWavyCheck, CheckCircle } from 'phosphor-react';
 import Image from 'next/image';
+import Head from 'next/head';
 
 
 export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>Home</title>
+      </Head>
       <BannerHead />
       <Nav />
       <div className="relative bg-white overflow-hidden">
@@ -75,12 +78,12 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="bg-violet-500">
+      <section className="bg-deep-purple-accent-400">
         <div className="relative overflow-hidden">
           <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
               <div className="sm:max-w-xl">
-                <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 className="text-4xl font font-extrabold tracking-tight text-teal-accent-700 sm:text-6xl">
                   Um mundo de possibilidades para o seu negócio
                 </h1>
                 <p className="mt-4 text-xl text-white">
@@ -121,10 +124,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='md:left-48 md:relative bg-gradient-to-tl from-cyan-500 to-violet-800 md:rounded-tl-full md:rounded-br-full  md:w-8/12 bottom-16 '>
+      <section className='md:left-48 md:relative bg-gradient-to-tr from-deep-purple-accent-400 to-teal-accent-400  md:rounded-full md:rounded-full  md:w-8/12 bottom-16 '>
         <div>
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl ml-10">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-2xl ml-10">
               <span className="block">Nos envie uma mensagem contando sua </span>
               <span className="block text-white">necessidade que teremos o prazer em te ajudar.</span>
             </h2>
@@ -145,9 +148,9 @@ export default function Home() {
 
 
 
-      <section className="bg-white mb-10">
+      <section className="bg-white mb-10 flex justify-center align-center">
         <div className="mt-10 ">
-            <div className="relative grid grid-cols-2 gap-6">
+            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
               <Image
                 src='https://res.cloudinary.com/lucascampos/image/upload/v1664826889/canais-loja-virtual.-v2-300x211_ffu691.webp'
                 width={300}
@@ -179,7 +182,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative grid grid-cols-2 gap-6">
+            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
               
               <div className='flex flex-col p-6' >
                 <strong className='outline outline-offset-2 outline-cyan-300 rounded-full px-2 mb-4 w-24'>Marketing</strong>
@@ -220,7 +223,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="relative grid grid-cols-2 gap-6">
+            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
               <Image
                 src='https://res.cloudinary.com/lucascampos/image/upload/v1664826889/canais-loja-virtual.-v2-300x211_ffu691.webp'
                 width={300}
@@ -233,7 +236,7 @@ export default function Home() {
 
                 <strong className='text-2xl mb-5'>Venda seus produtos em diversos canais</strong>
 
-                <div>
+                <div className="w-4/5">
                   <ul>
                     <li className='flex mb-5'>
                       <CircleWavyCheck size={42} color='#2da99b'/>
@@ -252,14 +255,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative grid grid-cols-2 gap-6">
+            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
               
               <div className='flex flex-col' >
                 <strong className='outline outline-offset-2 outline-cyan-300 rounded-full px-2 mb-4 w-24'>Multicanal</strong>
 
                 <strong className='text-2xl mb-5'>Venda seus produtos em diversos canais</strong>
 
-                <div>
+                <div className="w-4/5">
                   <ul>
                     <li className='flex mb-5'>
                       <CircleWavyCheck size={42} color='#2da99b'/>
@@ -290,7 +293,6 @@ export default function Home() {
       </section>
 
       <Footer />
-      <SeloTray />
     </div>
   )
 }

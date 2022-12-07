@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Lojas Virtuais (e-Commerce)', href: '/ecommerce', current: false },
   { name: 'Clientes', href: '/clients', current: false },
-  { name: 'Parcerias', href: '/partner', current: false },
+  { name: 'Revenda', href: '/revenda', current: false },
   // { name: 'Sistemas', href: '/erp', current: false  }
 ]
 
