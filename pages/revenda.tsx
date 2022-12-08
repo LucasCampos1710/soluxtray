@@ -1,8 +1,57 @@
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer/Footer";
+import { useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import * as zod from "zod"
+
+const newContactRevFormValidattionSchema = zod.object({
+  name: zod.string().min(3, 'Informe o seu nome'),
+  email: zod.string().min(3, 'Informe um email'),
+  // phone: zod.number().min(10, 'Informe o número de telefone').max(11),
+  city: zod.string().min(3, 'Informe a sua cidade'),
+  uf: zod.string().min(2, 'Informe o estado da sua cidade'),
+  work: zod.string().min(2, 'Responda sim ou não'),
+  experience: zod.string(),
+})
+
+// interface FormContactData {
+//   name: string
+//   email: String
+//   phone: number
+//   city: string
+//   uf: string
+//   work: string
+//   experience: string
+// }
+
+type FormContactData = zod.infer<typeof newContactRevFormValidattionSchema>
 
 export default function Revenda() {
+  const { register, handleSubmit, watch, reset } = useForm<FormContactData>({
+    resolver: zodResolver(newContactRevFormValidattionSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      city: '',
+      uf: '',
+      work: '',
+      experience: ''
+    }
+  })
+
+  function handleSubmitForm(data: FormContactData) {
+    if(data.experience.length < 30) {
+      alert('Preencher pelo menos 30 caracteres no campo de experiencia')
+    } else {  
+      window.open(`https://api.whatsapp.com/send?phone=5512991316484&text=Meu%20nome%20é%20${data.name},%20${data.email}%20${data.city}%20${data.uf}%20${data.work}%20${data.experience}%20gostaria%20de%20maiores%20informações%20sobre%20revenda`)
+      reset();
+    }
+  }
+
+  const formInput = watch('experience')
+  const isSubmitDisabled = !formInput
+
   return(
     <>
      <Head>
@@ -57,7 +106,8 @@ export default function Revenda() {
             </div>
             <div>
               <a
-                href="/"
+                href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20da%20revenda"
+
                 className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
               >
                 Quero ser um Revendedor
@@ -146,7 +196,8 @@ export default function Revenda() {
       </div>
       <div className="text-center">
         <a
-          href="/"
+          href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20da%20revenda"
+
           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
         >
           Quero ser Revenda
@@ -168,40 +219,41 @@ export default function Revenda() {
         <h1 className="text-3xl font-semibold text-gray-100 dark:text-teal-accent-400">Preencha o formulário abaixo e receba mais informações</h1>
         <p className="max-w-md mx-auto mt-5 text-gray-800 dark:text-gray-400">Entre em contato</p>
 
-        <div className="flex flex-col mt-8 space-y-3 ">
+          <form onSubmit={handleSubmit(handleSubmitForm)} action="" className="flex flex-col mt-8 space-y-3 ">
             <label htmlFor="name" className="text-gray-700 text-left">Nome</label>
-            <input id="name" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Nome"/>
+            <input id="name" type="text" {...register("name")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Nome"/>
+            
             <label htmlFor="name" className="text-gray-700 text-left">Email</label>
-           
-            <input id="email" type="email" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
+            <input id="email" type="email" {...register("email")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
+            
             <label htmlFor="name" className="text-gray-700 text-left">Telefone</label>
+            <input id="phone" type="number" {...register("phone")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Telefone"/>
             
-            <input id="phone" type="number" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Telefone"/>
             <label htmlFor="name" className="text-gray-700 text-left">Cidade</label>
+            <input id="city" type="text" {...register("city")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Cidade"/>
             
-            <input id="city" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Cidade"/>
             <label htmlFor="name" className="text-gray-700 text-left">Estado</label>
+            <input id="UF" type="text" {...register("uf")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Estado"/>
             
-            <input id="UF" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Estado"/>
             <label htmlFor="name" className="text-gray-700 text-left">Você já trabalha com Digital</label>
-            
-            <input id="work" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Você ja trabalha na área digital"/>
+            <input id="work" type="text" {...register("work")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Você ja trabalha na área digital"/>
 
             <h2 className="text-left text-gray-700">Emite Nota Fiscal?</h2>
             <div className="flex flex-row flex-wrap">
-            <input type="radio" name="sim" id="yes" value="yes" className="mr-2" />
+            <input type="radio"  id="yes" value="yes" {...register("yes")} className="mr-2" />
             <label htmlFor="yes" className="mr-5 text-gray-600">Sim</label>
-            <input type="radio" name="no" id="no" value="no" className="mr-2"/>
+           
+            <input type="radio"  id="no" value="no" {...register("no")}  className="mr-2"/>
             <label htmlFor="no" className="text-gray-600">Não</label>
             </div>
 
             <label htmlFor="experience" className="text-left text-gray-700">Resuma sua experiência na área</label>
-            <textarea name="experience" id="experience" className="bg-gray-800 rounded text-gray-100 p-3 focus:outline-none focus:border-teal-accent-700 focus:ring focus:ring-teal-accent-700" placeholder="Conte um pouco sobre sua experiência"></textarea>
+            <textarea id="experience" {...register("experience")}  className="bg-gray-800 rounded text-gray-100 p-3 focus:outline-none focus:border-teal-accent-700 focus:ring focus:ring-teal-accent-700" placeholder="Conte um pouco sobre sua experiência"></textarea>
 
-            <button className="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-teal-accent-700 rounded-md sm:mx-2 hover:bg-teal-600 focus:outline-none focus:bg-teal-accent-500">
+            <button disabled={isSubmitDisabled}  type="submit" className="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-teal-accent-700 rounded-md sm:mx-2 hover:bg-teal-600 focus:outline-none focus:bg-teal-accent-500 disabled:bg-opacity-5">
                 Solicitar mais informações
             </button>
-        </div>
+            </form>
     </div>
 </section>
       <Footer />
