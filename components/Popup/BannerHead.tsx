@@ -10,13 +10,13 @@ export default function BannerHead() {
               <MegaphoneIcon className="h-4 w-4 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 truncate font-medium text-white">
-              <span className="md:hidden">Veja as funcionalidades novas que temos!</span>
-              <span className="hidden md:inline">Novidade! Sabia as novas funcionalidades lançadas.</span>
+              <span className="md:hidden">Veja nosso nova opção para Revenda!</span>
+              <span className="hidden md:inline">Novidade! Veja nosso nova opção para Revenda.</span>
             </p>
           </div>
           <div className="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="#"
+              href="/revenda"
               className="flex items-center justify-center rounded-md border border-transparent bg-white px-2 py-1 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50"
             >
               Saiba mais
