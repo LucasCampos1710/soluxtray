@@ -150,12 +150,12 @@ export default function Home() {
 
       <section className="bg-white mb-10 flex justify-center align-center">
         <div className="mt-10 ">
-            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
+            <div className="relative grid grid-cols-1 gap-6 px-10  md:grid-cols-2">
               <Image
-                src='https://res.cloudinary.com/lucascampos/image/upload/v1664826889/canais-loja-virtual.-v2-300x211_ffu691.webp'
+                src='https://res.cloudinary.com/lucascampos/image/upload/v1672073145/3840191_t0j2mg.png'
                 width={300}
-                height={150}
-                className='bg-cover p-4'
+                height={550}
+                className='bg-cover ml-28'
                 alt="image teste"
               />
               <div className='flex flex-col p-6' >
@@ -182,7 +182,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
+            <div className="relative grid grid-cols-1 gap-6 px-10 mt-10 md:grid-cols-2">
               
               <div className='flex flex-col p-6' >
                 <strong className='outline outline-offset-2 outline-cyan-300 rounded-full px-2 mb-4 w-24'>Marketing</strong>
@@ -197,7 +197,7 @@ export default function Home() {
                       </li>
                     <li className='flex mb-5'>
                       <CircleWavyCheck size={32} color='#2da99b' className='mr-2'/>
-                     Ofereça Promoções com cupons de descopnto e frete grátis.
+                     Ofereça Promoções com cupons de desconto e frete grátis.
                       </li>
                     <li className='flex mb-5'>
                       <CircleWavyCheck size={32} color='#2da99b' className='mr-2'/>
@@ -215,15 +215,15 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                src='https://res.cloudinary.com/lucascampos/image/upload/v1664827639/otimizado-para-marketing-e-seo-800-242x300_nsbhcy.webp'
-                width={300}
-                height={150}
-                className='bg-cover p-4'
-                alt="image teste"
+                src='https://res.cloudinary.com/lucascampos/image/upload/v1672066778/otimizado-para-marketing-e-seo-800_bxl5zb.webp'
+                width={400}
+                height={200}
+                className='bg-cover ml-28'
+                alt="Imagem de grafico de vendas e valores totais"
               />
             </div>
 
-            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
+            {/* <div className="relative grid grid-cols-1 gap-6 px-10 mt-10 md:grid-cols-2">
               <Image
                 src='https://res.cloudinary.com/lucascampos/image/upload/v1664826889/canais-loja-virtual.-v2-300x211_ffu691.webp'
                 width={300}
@@ -253,9 +253,9 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="relative grid grid-cols-1 gap-6 px-10 mt-5 md:grid-cols-2">
+            {/* <div className="relative grid grid-cols-1 gap-6 px-10 mt-10 md:grid-cols-2">
               
               <div className='flex flex-col' >
                 <strong className='outline outline-offset-2 outline-cyan-300 rounded-full px-2 mb-4 w-24'>Multicanal</strong>
@@ -286,7 +286,7 @@ export default function Home() {
                 className='bg-cover p-4'
                 alt="image teste"
               />
-            </div>
+            </div> */}
            
 
         </div>

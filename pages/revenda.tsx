@@ -12,6 +12,7 @@ const newContactRevFormValidattionSchema = zod.object({
   city: zod.string().min(3, 'Informe a sua cidade'),
   uf: zod.string().min(2, 'Informe o estado da sua cidade'),
   work: zod.string().min(2, 'Responda sim ou não'),
+  nf: zod.string().min(2, 'Responda sim ou não'),
   experience: zod.string(),
 })
 
@@ -36,6 +37,7 @@ export default function Revenda() {
       city: '',
       uf: '',
       work: '',
+      nf: '',
       experience: ''
     }
   })
@@ -44,7 +46,7 @@ export default function Revenda() {
     if(data.experience.length < 30) {
       alert('Preencher pelo menos 30 caracteres no campo de experiencia')
     } else {  
-      window.open(`https://api.whatsapp.com/send?phone=5512991316484&text=Meu%20nome%20é%20${data.name},%20${data.email}%20${data.city}%20${data.uf}%20${data.work}%20${data.experience}%20gostaria%20de%20maiores%20informações%20sobre%20revenda`)
+      window.open(`https://api.whatsapp.com/send?phone=5512991316484&text=Meu%20nome%20é%20${data.name},%20${data.email}%20${data.city}%20${data.uf}%20${data.work}%20${data.nf}%20${data.experience}%20gostaria%20de%20maiores%20informações%20sobre%20revenda`)
       reset();
     }
   }
@@ -240,11 +242,7 @@ export default function Revenda() {
 
             <h2 className="text-left text-gray-700">Emite Nota Fiscal?</h2>
             <div className="flex flex-row flex-wrap">
-            <input type="radio"  id="yes" value="yes" {...register("yes")} className="mr-2" />
-            <label htmlFor="yes" className="mr-5 text-gray-600">Sim</label>
-           
-            <input type="radio"  id="no" value="no" {...register("no")}  className="mr-2"/>
-            <label htmlFor="no" className="text-gray-600">Não</label>
+            <input id="name" type="text" {...register("nf")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Sim ou Não?"/>
             </div>
 
             <label htmlFor="experience" className="text-left text-gray-700">Resuma sua experiência na área</label>

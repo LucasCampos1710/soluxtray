@@ -72,7 +72,7 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/ecommerce"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     e-Commerce
@@ -80,23 +80,23 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/revenda"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Plano de Revenda
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Parceiros
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="/"
+                    href="/clients"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Clientes
@@ -111,7 +111,7 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Fale com um Consultor
@@ -119,7 +119,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="https://api.whatsapp.com/send?phone=5512996121785"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Suporte
@@ -127,7 +127,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="https://api.whatsapp.com/send?phone=5512991059844"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Financeiro
@@ -135,7 +135,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/privacy-policy"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Politica de Privacidade
@@ -144,7 +144,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            {/* <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
                 Certificações
               </p>
@@ -166,7 +166,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">

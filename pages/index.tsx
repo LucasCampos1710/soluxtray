@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useState } from "react";
 import Footer from "../components/Footer/Footer";
 import PoliticPrivacity from "../components/Popup/PoliticPrivacity";
-import { parseCookies, setCookie } from "nookies"
 
 
 export default function Index({cookies}) {
