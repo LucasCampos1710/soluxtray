@@ -1,4 +1,4 @@
-import { ChartSquareBarIcon, TruckIcon, CreditCardIcon, TableIcon } from '@heroicons/react/outline'
+import { ChartBarSquareIcon, TruckIcon, CreditCardIcon, TableCellsIcon } from '@heroicons/react/24/outline'
 
 export default function Vantagens() {
 
@@ -7,7 +7,7 @@ export default function Vantagens() {
         name: 'Canais de venda',
       description:
       'Você podera vender nos maiores MARKETPLACES do país, com a facilidade de integrar sua loja aos MARKETPLACES mais importantes do Brasil.',
-      icon: ChartSquareBarIcon,
+      icon: ChartBarSquareIcon,
   },
       {
         name: 'Frete',
@@ -25,7 +25,7 @@ export default function Vantagens() {
         name: 'Integração',
         description:
         'Integramos sua loja FISICA com a sua loja VIRTUAL (ERP) e você terá acesso a todos os dados da sua loja FISICA.',
-        icon: TableIcon,
+        icon: TableCellsIcon,
         },
       ]
 

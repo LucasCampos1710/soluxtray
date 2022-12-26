@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Footer from '../components/Footer/Footer'
 import Nav from '../components/Nav/Nav'
 import SeloTray from '../components/seloTray'
@@ -126,6 +127,9 @@ const callouts = [
 export default function Clients() {
   return (
     <div>
+       <Head>
+        <title>Clientes</title>
+      </Head>
       <div className="relative bg-white overflow-hidden">
         <Nav />
         <div className="bg-gray-100">
@@ -165,3 +169,4 @@ export default function Clients() {
 
   )
 }
+
