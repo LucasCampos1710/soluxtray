@@ -212,13 +212,13 @@ export default function Revenda() {
       
       <section className="bg-white dark:bg-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1de9b6" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-        <div className="max-w-3xl relative bottom-[22rem] px-6 py-16 mx-auto text-center">
+        <div className="max-w-3xl relative md:bottom-[22rem] bottom-24 px-6 py-16 mx-auto text-center">
           <h1 className="text-3xl font-semibold text-gray-100">
             Somos especialistas na criação de lojas virtuais de alta performance.
             </h1>
         </div>
 
-    <div className="max-w-3xl px-6  mx-auto text-center relative bottom-56">
+    <div className="max-w-3xl px-6  mx-auto text-center relative md:bottom-56 bottom-10">
         <h1 className="text-3xl font-semibold text-gray-100 dark:text-teal-accent-400">Preencha o formulário abaixo e receba mais informações</h1>
         <p className="max-w-md mx-auto mt-5 text-gray-800 dark:text-gray-400">Entre em contato</p>
 

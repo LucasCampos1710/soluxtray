@@ -80,7 +80,7 @@ export default function Home() {
 
       <section className="bg-deep-purple-accent-400">
         <div className="relative overflow-hidden">
-          <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+          <div className="pt-16 md:pb-80 sm:pt-24  lg:pt-40 lg:pb-48">
             <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
               <div className="sm:max-w-xl">
                 <h1 className="text-4xl font font-extrabold tracking-tight text-teal-accent-700 sm:text-6xl">
@@ -124,16 +124,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='md:left-48 md:relative bg-gradient-to-tr from-deep-purple-accent-400 to-teal-accent-400  md:rounded-full md:rounded-full  md:w-8/12 bottom-16 '>
+      <section className='md:left-48 md:relative bg-gradient-to-tr from-deep-purple-accent-400 to-teal-accent-400  md:rounded-full   md:w-8/12 md:bottom-16 '>
         <div>
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-2xl ml-10">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-2xl md:ml-10">
               <span className="block">Nos envie uma mensagem contando sua </span>
               <span className="block text-white">necessidade que teremos o prazer em te ajudar.</span>
             </h2>
             <div className="relative md:right-10  mt-8 flex :justify-center :text-center lg:mt-0 lg:flex-shrink-0 ">
 
-              <div className="md:ml-3 md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-24 relative md:left-0">
+              <div className="md:ml-3 md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-16 relative md:left-0">
                 <a
                   href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
                   className="md:inline-flex sm:flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-cyan-500 hover:text-white"
@@ -155,7 +155,7 @@ export default function Home() {
                 src='https://res.cloudinary.com/lucascampos/image/upload/v1672073145/3840191_t0j2mg.png'
                 width={300}
                 height={550}
-                className='bg-cover ml-28'
+                className='bg-cover md:ml-28'
                 alt="image teste"
               />
               <div className='flex flex-col p-6' >
@@ -218,9 +218,10 @@ export default function Home() {
                 src='https://res.cloudinary.com/lucascampos/image/upload/v1672066778/otimizado-para-marketing-e-seo-800_bxl5zb.webp'
                 width={400}
                 height={200}
-                className='bg-cover ml-28'
+                className='bg-cover md:ml-28'
                 alt="Imagem de grafico de vendas e valores totais"
               />
+              
             </div>
 
             {/* <div className="relative grid grid-cols-1 gap-6 px-10 mt-10 md:grid-cols-2">
