@@ -5,11 +5,32 @@ import SeloTray from '../components/seloTray'
 
 const callouts = [
   {
+    name: 'Quintal Bar. Pizza. Skateshop',
+    description: 'Loja virtual do Quintal Bar.Pizza.Skateshop de São José dos Campos.',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1673104628/2023-01-07_2_raupub.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) do Quintal Bar. Pizza. Skateshop pela Solux Creative',
+    href: 'https://www.quintalskateshop.com.br/',
+  },
+  {
     name: 'Toledo Surf',
     description: 'Loja virtual do surfista campeão Filipe Toledo.',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
-    href: 'https://www.filipetoledo.com.br',
+    href: 'https://www.filipetoledosurfstore.com.br',
+  },
+  {
+    name: 'Divinu´ s',
+    description: 'Loja em especializada em artigos para festas (Loja em Construção)',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1673105505/2023-01-07_3_kwydb9.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) do Divinu´ s criada pela Solux Creative',
+    // href: 'https://www.lojacentraldoces.com.br',
+  },
+  {
+    name: 'Ibs Distribuidora',
+    description: 'Loja virtual da distribuidora IBS em São Sebastião (Loja em Construção)',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1673105505/2023-01-07_4_wwkko2.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Ibs Distribuidora criada pela Solux Creative',
+    // href: 'https://www.lojacentraldoces.com.br',
   },
   {
     name: 'Central Doces',
@@ -72,13 +93,6 @@ const callouts = [
     imageAlt: 'Imagem da loja virtual(e-commerce) da Basico UD criada pela Solux Creative',
     href: 'https://www.basicoud.com.br',
   },
-  {
-    name: 'Tactus Store',
-    description: 'Nossa loja chega para demonstrar que a elegância e requinte se complementam à  beleza interior de toda mulher',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_12_fpjm1j.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Tactus Store criada pela Solux Creative',
-   // href: 'https://www.tactusstore.com.br',
-  },
  
   {
     name: 'Padaria O Segredo dos Doces',
@@ -86,13 +100,6 @@ const callouts = [
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_14_vq3wo7.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Padaria O segredfoi dos doces criada pela Solux Creative',
     href: 'https://www.osegredodosdoces.com.br',
-  },
-  {
-    name: 'Oca Store',
-    description: 'Somos designers de produtos, especializados em estética e anatomia do produto.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_15_f5ecuz.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Oca Store criada pela Solux Creative',
-    href: 'https://www.ocastore.com.br',
   },
   {
     name: 'Agencia Somos a Fabula',
@@ -117,7 +124,7 @@ const callouts = [
   },
   {
     name: 'Doc Soluções',
-    description: 'Site institucional para a Doc Soluções',
+    description: 'Site institucional para a Doc Soluções (Site em Construção)',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649275689/2022-04-06_20_sad2fp.png',
     imageAlt: 'Imagem do site da Doc Soluções criada pela Solux Creative',
     // href: 'https://www..com.br',
