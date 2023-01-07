@@ -60,7 +60,7 @@ export default function Revenda() {
      <Head>
         <title>Revenda Solux</title>
       </Head>
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-white bg-gray-900">
     <div className="bg-deep-purple-accent-700">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
@@ -210,7 +210,7 @@ export default function Revenda() {
       </main>
 
       
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1de9b6" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
         <div className="max-w-3xl relative md:bottom-[14rem] lg:bottom-[22rem] sm:bottom-14 bottom-24 px-6 py-16 mx-auto text-center">
           <h1 className="text-3xl font-semibold text-gray-100">
@@ -219,31 +219,31 @@ export default function Revenda() {
         </div>
 
     <div className="max-w-3xl px-6  mx-auto text-center relative md:bottom-56 bottom-10">
-        <h1 className="text-3xl font-semibold text-gray-100 dark:text-teal-accent-400">Preencha o formulário abaixo e receba mais informações</h1>
-        <p className="max-w-md mx-auto mt-5 text-gray-800 dark:text-gray-400">Entre em contato</p>
+        <h1 className="text-3xl font-semibold text-teal-accent-400">Preencha o formulário abaixo e receba mais informações</h1>
+        <p className="max-w-md mx-auto mt-5 text-gray-400">Entre em contato</p>
 
           <form onSubmit={handleSubmit(handleSubmitForm)} action="" className="flex flex-col mt-8 space-y-3 ">
             <label htmlFor="name" className="text-gray-700 text-left">Nome</label>
-            <input id="name" type="text" {...register("name")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Nome"/>
+            <input id="name" type="text" {...register("name")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Nome"/>
             
             <label htmlFor="name" className="text-gray-700 text-left">Email</label>
-            <input id="email" type="email" {...register("email")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
+            <input id="email" type="email" {...register("email")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Email "/>
             
             <label htmlFor="name" className="text-gray-700 text-left">Telefone</label>
-            <input id="phone" type="number" {...register("phone")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Telefone"/>
+            <input id="phone" type="number" {...register("phone")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Telefone"/>
             
             <label htmlFor="name" className="text-gray-700 text-left">Cidade</label>
-            <input id="city" type="text" {...register("city")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Cidade"/>
+            <input id="city" type="text" {...register("city")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Cidade"/>
             
             <label htmlFor="name" className="text-gray-700 text-left">Estado</label>
-            <input id="UF" type="text" {...register("uf")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Estado"/>
+            <input id="UF" type="text" {...register("uf")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Estado"/>
             
             <label htmlFor="name" className="text-gray-700 text-left">Você já trabalha com Digital</label>
-            <input id="work" type="text" {...register("work")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Você ja trabalha na área digital"/>
+            <input id="work" type="text" {...register("work")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Você ja trabalha na área digital"/>
 
             <h2 className="text-left text-gray-700">Emite Nota Fiscal?</h2>
             <div className="flex flex-row flex-wrap">
-            <input id="name" type="text" {...register("nf")} className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-teal-accent-400 dark:focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Sim ou Não?"/>
+            <input id="name" type="text" {...register("nf")} className="px-4 py-2  border rounded-md sm:mx-2 bg-gray-900 text-gray-300 border-gray-600 focus:border-teal-accent-400 focus:border-teal-accent-300 focus:outline-none focus:ring focus:ring-teal-accent-300 focus:ring-opacity-40" placeholder="Sim ou Não?"/>
             </div>
 
             <label htmlFor="experience" className="text-left text-gray-700">Resuma sua experiência na área</label>
