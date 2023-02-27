@@ -119,7 +119,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://api.whatsapp.com/send?phone=5512996121785"
+                    href="https://api.whatsapp.com/send?phone=5512974047543"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Suporte
@@ -138,7 +138,7 @@ export default function Footer() {
                     href="/privacy-policy"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Politica de Privacidade
+                    Política de Privacidade
 
                   </a>
                 </li>
@@ -171,7 +171,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
           <p className="text-sm text-gray-100">
-            © Copyright 2022 Solux Creative. All rights reserved.
+            © Copyright 2023 Solux Creative. All rights reserved.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

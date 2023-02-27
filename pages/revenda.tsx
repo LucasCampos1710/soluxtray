@@ -45,7 +45,7 @@ export default function Revenda() {
 
   function handleSubmitForm(data: FormContactData) {
     if(data.experience.length < 30) {
-      alert('Preencher pelo menos 30 caracteres no campo de experiencia')
+      alert('Preencher pelo menos 30 caracteres no campo de experiência')
     } else {  
       window.open(`https://api.whatsapp.com/send?phone=5512991316484&text=Meu%20nome%20é%20${data.name},%20${data.email}%20${data.city}%20${data.uf}%20${data.work}%20${data.nf}%20${data.experience}%20gostaria%20de%20maiores%20informações%20sobre%20revenda`)
       reset();
@@ -174,7 +174,7 @@ export default function Revenda() {
           <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold leading-5">A Solux Creative oferece todo suporte ao cliente</h6>
             <p className="text-sm text-gray-900">
-              Você só precisa se preocupar em encontrar o cliente certo e fazer a venda que nós cuidamos da implementação e suporte!
+              Você só precisa se preocupar em encontrar o cliente certo e fazer a venda que nós cuidamos da implementação, configurações, parametrizações, treinamento e suporte!
             </p>
           </div>
         </div>
@@ -190,9 +190,9 @@ export default function Revenda() {
         </div>
         <div className="duration-300 transform bg-white border-l-4 border-teal-accent-400 hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold leading-5">E-commerce mais completo do mercado</h6>
+            <h6 className="mb-2 font-semibold leading-5">e-Commerce mais completo do mercado</h6>
             <p className="text-sm text-gray-900">
-              Somos a plataforma mais completa e sólida do mercado. Temos um time que trabalha muito para entregar o melhor para os clientes.
+              Somos a plataforma mais completa e sólida do mercado. Temos um time que trabalha muito para entregar o melhor para os clientes e parceiros.
             </p>
           </div>
         </div>
