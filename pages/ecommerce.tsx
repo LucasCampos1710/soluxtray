@@ -107,7 +107,6 @@ export default function Ecommerces() {
       </div> */}
       <Ecommerce />
       <Footer />
-      <SeloTray />
     </div>
 
   )
