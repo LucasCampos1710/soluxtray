@@ -133,7 +133,7 @@ export default function Home() {
             </h2>
             <div className="relative md:right-10  mt-8 flex :justify-center :text-center lg:mt-0 lg:flex-shrink-0 ">
 
-              <div className="md:ml-3 md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-16 relative md:left-0">
+            <div className="md:ml- md:inline-flex rounded-md shadow sm:flex sm:justify-center sm:text-center left-17 relative md:left-3">
                 <a
                   href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
                   className="md:inline-flex sm:flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-cyan-500 hover:text-white"
