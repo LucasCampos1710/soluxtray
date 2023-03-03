@@ -5,11 +5,18 @@ import SeloTray from '../components/seloTray'
 
 const callouts = [
   {
-    name: 'Quintal Bar. Pizza. Skateshop',
-    description: 'Loja virtual do Quintal Bar.Pizza.Skateshop de São José dos Campos.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1673104628/2023-01-07_2_raupub.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) do Quintal Bar. Pizza. Skateshop pela Solux Creative',
-    href: 'https://www.quintalskateshop.com.br/',
+    name: 'Villa Shopping da Construção',
+    description: 'Site institucional da empresa Villa',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1677867548/Captura_de_tela_de_2023-03-03_15-13-24_ebgaal.png',
+    imageAlt: 'Imagem do site institucional da Villa Shopping da Construção',
+    href: 'https://www.villashoppingdaconstrucao.com.br/',
+  },
+  {
+    name: 'Grupo Villa Caragua',
+    description: 'Site institucional do Grupo Villa Caragua',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1677867548/Captura_de_tela_de_2023-03-03_15-15-03_j4u6dq.png',
+    imageAlt: 'Imagem do site institucional do Grupo Villa Caragua',
+    href: 'https://www.grupovillacaragua.com.br/',
   },
   {
     name: 'Toledo Surf',
@@ -72,10 +79,10 @@ const callouts = [
   
   {
     name: 'All Presents',
-    description: 'Loja especializada em objetos de decoração, acessórios e presentes.',
+    description: 'Loja especializada em objetos de decoração, acessórios e presentes(Loja em Manutenção).',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_5_wdmnlc.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da All Presentes criada pela Solux Creative',
-    href: 'https://www.lojaallpresentes.com.br',
+    // href: 'https://www.lojaallpresentes.com.br',
   },
  
    
@@ -98,7 +105,7 @@ const callouts = [
     name: 'Padaria O Segredo dos Doces',
     description: 'Site instituicional para a Padaria O Segredo dos Doces',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_14_vq3wo7.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Padaria O segredfoi dos doces criada pela Solux Creative',
+    imageAlt: 'Imagem do site da Padaria O segredo dos doces criada pela Solux Creative',
     href: 'https://www.osegredodosdoces.com.br',
   },
   {
