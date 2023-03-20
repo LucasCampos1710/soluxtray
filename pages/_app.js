@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 import { GTM_ID, pageview } from '../lib/gtm'
@@ -73,7 +74,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */ }
       <Script
         strategy="afterInteractive"
-        src={ `https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}` }
+        async src={ `https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}` }
       />
       <Script
         id="gatg-init"
@@ -91,6 +92,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
         } }
       />
       <Component { ...pageProps } />
+      <Analytics />
     </>
   )
 }
