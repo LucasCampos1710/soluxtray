@@ -175,7 +175,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
-              href="/tray"
+              href="#"
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
             >
               <Image 
