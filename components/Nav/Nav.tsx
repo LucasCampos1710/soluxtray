@@ -75,8 +75,8 @@ export default function Nav() {
                     onClick={() => window.location.href = "https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"}
                     className=" hidden lg:block bg-gradient-to-r from-sky-600 to-green-500 p-3 shadow-lg shadow-sky-500/50 rounded-lg  text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
                   >
-                    Crie a sua loja virtual
-                    <span className="sr-only">Crie a sua loja virtual</span>
+                    Fale com um consultor
+                    <span className="sr-only">Fale com um consultor</span>
                   </button>
                   <button
                     type="button"
