@@ -47,7 +47,7 @@ export default function Home() {
 
                 <div className="flex mt-3 text-base font-semibold text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   <CheckCircle color="#2da99b" size={44} weight="duotone" className="mr-1" />
-                  <p>Integre com <strong>Marketplaces,</strong> Correios, Melhor Envios, Transportadoras e Bling.</p>
+                  <p>Integre com <strong>Marketplaces,</strong> Correios, Melhor Envios, Transportadoras e ERPs.</p>
 
                 </div>
 
@@ -61,8 +61,8 @@ export default function Home() {
                   <a href="https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"
                     className="px-10 bg-gradient-to-r from-sky-600 to-green-500 p-3 shadow-lg shadow-sky-500/50 rounded-lg  text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
                   >
-                    Crie a sua loja virtual
-                    <span className="sr-only">Crie a sua loja virtual</span></a>
+                    Fale com um consultor
+                    <span className="sr-only">Fale com um consultor</span></a>
                 </div>
 
               </div>
@@ -88,7 +88,7 @@ export default function Home() {
                 </h1>
                 <p className="mt-4 text-xl text-white">
                   Conte com o nosso melhor Atendimento,
-                  você terá todo o carinho e atenção de nossa equipe para te ajudar a ter sucesso em todo o processo. Nada de robôs, nosso Atendimento é pessoal.
+                  você terá todo o carinho e atenção de nossa equipe para te ajudar a ter sucesso em todo o processo. Nada de robôs, nosso Atendimento é humanizado.
                   {/* A Solux Creative tem em seu DNA, o avanço tecnológico e capacita seus clientes/parceiros para utilizar a plataforma de e-Commerce da
                   maneira mais prática possível e sem complicações, com profissionais com mais de 30 anos de experiência em Tecnologia de Ponta. */}
 
