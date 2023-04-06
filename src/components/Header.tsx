@@ -57,7 +57,7 @@ export default function Nav() {
                   <button
                     type="button"
                     onClick={() => window.location.href = "https://api.whatsapp.com/send?phone=5512991316484&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20e-commerce"}
-                    className=" hidden lg:block bg-gradient-to-r from-sky-600 to-green-500 p-3 shadow-lg shadow-sky-500/50 rounded-lg  text-white hover:brightness-125 focus:outline-none focus:shadow-outline"
+                    className=" hidden lg:block bg-gradient-to-r from-sky-600 to-green-500 p-3 shadow-lg shadow-sky-500/50 rounded-lg  text-white hover:brightness-125 focus:outline-none focus:shadow-outline motion-safe:animate-bounce transition"
                   >
                     Fale com um consultor
                     <span className="sr-only">Fale com um consultor</span>
