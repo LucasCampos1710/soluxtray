@@ -7,8 +7,8 @@ import Image from 'next/image';
 
 export default function Nav() {
   return (
-    <header>
-      <Disclosure as="nav" className="bg-zinc-100 z-10 font-inter">
+    <header className="fixed w-full z-50 bg-white/80">
+      <Disclosure as="nav" className="z-10 font-inter">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
