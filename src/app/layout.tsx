@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 export const metadata = {
   title: 'Solux Creative',
-  description: 'Site da solux creative',
+  description: 'Solux Creative empresa especializada em e-Commerce e criação de sites',
 }
 
 export default function RootLayout({

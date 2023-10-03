@@ -25,7 +25,7 @@ export default function Home() {
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
                   <span className="block xl:inline uppercase">Somos especialistas em criação </span>{' '}
-                  <span className="block text-violet-600 xl:inline uppercase">de lojas virtuais de alta performance.</span>
+                  <span className="block text-violet-600 xl:inline uppercase">de e-Commerce de alta performance.</span>
                 </h1>
                 <div className=" flex pt-10 text-base font-semibold text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   <CheckCircle color="#2da99b" size={32} weight="duotone" className="mr-1" />
@@ -70,6 +70,75 @@ export default function Home() {
             height={2000}
             width={2000}
           />
+        </div>
+      </div>
+
+      <div className='py-4 flex flex-1 bg-slate-500/25 flex-col justify-center text-center'>
+        <h2 className='text-center text-xl text-violet-600 font-bold'>Clientes que usam nossos serviços</h2>
+        <div className='flex flex-row p-3 justify-center items-center'>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0 '
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696341927/logo_164874822416855_aawu8g.png"
+              height={100}
+              width={150}
+              alt='Logo Filipe Toledo Surf Store'
+              />
+            </div>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0 hover:bg-yellow-accent-100'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696341977/logo_161478488133731_jy25uy.png"
+              height={100}
+              width={150}
+              alt='Logo Maria Calopsita'
+              />
+            </div>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696342381/1689366147_logo_166663651011117_fo5twp.png"
+              height={100}
+              width={150}
+              alt='Logo Divinus'
+              />
+            </div>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696349805/logo_163242557743522_vutbv5.png"
+              height={100}
+              width={150}
+              alt='Logo Casa da Madeira'
+              />
+            </div>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0  hover:bg-blue-950'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696350349/652f80_b01788ae8b90467c8191c39adac6a6af_mv2_rzh9wq.png"
+              height={100}
+              width={150}
+              alt='Logo Smart Properts'
+              />
+            </div>
+            <div className='border-r-2 border-zinc-600/25 mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1680718692/logo_xodo_racoes_giknjx.png"
+              height={80}
+              width={100}
+              alt='Logo Xodó Rações'
+              />
+            </div>
+            <div className='mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1696350806/Logo-grupo-Villa-vermelho_i9yzv6.png"
+              height={100}
+              width={150}
+              alt='Logo Grupo Villa'
+              />
+            </div>
         </div>
       </div>
 

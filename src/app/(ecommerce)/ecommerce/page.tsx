@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: 'Ecommerce',
-  description: 'Pagina com mias detalhes sobre o e-Commerce',
+  description: 'Pagina com mais detalhes sobre o e-Commerce',
 };
 
 export default function Pages() {
@@ -18,7 +18,7 @@ export default function Pages() {
               <div className="sm:max-w-xl">
                 <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">Quer aumentar suas vendas,</span>{' '}
-                  <span className="block  xl:inline">mas ainda não criou sua loja virtual?</span>
+                  <span className="block  xl:inline">mas ainda não criou seu e-Commerce?</span>
                 </h1>
                 <p className="mt-4 text-xl text-white">
                   A equipe da Solux Creative é especializada em implantação das melhores plataformas de e-Commerce para o seu negocio.

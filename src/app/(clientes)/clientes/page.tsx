@@ -3,11 +3,39 @@ import Image from "next/image"
 
 const callouts = [
   {
+    name: 'Toledo Surf',
+    description: 'Loja virtual do surfista campeão Filipe Toledo.',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
+    href: 'https://www.filipetoledosurfstore.com.br',
+  },
+   {
+    name: 'Maria Calopsita',
+    description: 'Loja especializada em vendas de produtos para Calopsitas',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1643038351/2022-01-24_1_foko9c.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Maria Calopsita criada pela Solux Creative',
+    href: 'https://www.mariacalopsita.com.br',
+  },
+  {
     name: 'Xodó Rações',
     description: 'e-Commerce e blog Xodó Rações (em construção)',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1680718692/logo_xodo_racoes_giknjx.png',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1696280262/Captura_de_tela_2023-10-02_175309_jtjaao.png',
     imageAlt: 'Logo Xodó Rações',
-    href: 'https://www.villashoppingdaconstrucao.com.br/',
+    // href: 'https://www.villashoppingdaconstrucao.com.br/',
+  },
+   {
+    name: 'Casa da Madeira',
+    description: 'A Casa da Madeira é uma empresa que fabrica suas próprias peças, voltado para o consumidor final ou lojistas, oferecendo uma gama completa de produtos dentro do seu segmento de atuação',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_2_yvsvji.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) da Casa da Madeira criada pela Solux Creative',
+    href: 'https://www.casadamadeira.com.br',
+  },
+  {
+    name: 'Villa Engenharia',
+    description: 'Site institucional da empresa Villa Engenharia',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1696340128/Captura_de_tela_2023-10-03_103206_bml4xg.png',
+    imageAlt: 'Imagem do site institucional da Villa Engenharia',
+    href: 'https://www.villaengenhariacaragua.com.br/',
   },
   {
     name: 'Villa Shopping da Construção',
@@ -24,11 +52,11 @@ const callouts = [
     href: 'https://www.grupovillacaragua.com.br/',
   },
   {
-    name: 'Toledo Surf',
-    description: 'Loja virtual do surfista campeão Filipe Toledo.',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656290/2022-08-16_bhmjgg.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Filipe Toledo pela Solux Creative',
-    href: 'https://www.filipetoledosurfstore.com.br',
+    name: 'Smart Properts',
+    description: 'Site da Imobilaria Smart Properts',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1696280263/Captura_de_tela_2023-10-02_175332_nvggd0.png',
+    imageAlt: 'Imagem do site da Smart Properts',
+    href: 'https://www.smartproperts.com.br/',
   },
   {
     name: 'Divinu´ s',
@@ -45,73 +73,25 @@ const callouts = [
     href: 'https://www.ibsdistribuidora.com.br',
   },
   {
-    name: 'Central Doces',
-    description: 'Umas das melhores lojas de confeitaria da região de São José dos Campos',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1643038351/2022-01-24_5_hlkgof.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da central doces criada pela Solux Creative',
-    href: 'https://www.lojacentraldoces.com.br',
-  },
-  {
-    name: 'Maria Calopsita',
-    description: 'Loja especializada em vendas de produtos para Calopsitas',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1643038351/2022-01-24_1_foko9c.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Maria Calopsita criada pela Solux Creative',
-    href: 'https://www.mariacalopsita.com.br',
-  },
-  {
-    name: 'Lolô Bolsas',
-    description: 'Loja especializada em bolsas personalizadas',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1660656730/2022-08-16_3_vcajjx.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Lolô Bolsas criada pela Solux Creative',
-    href: 'https://www.lolobolsas.com.br',
-  },
-  
-  {
-    name: 'blue Lord',
-    description: 'Marca contemporânea com inspiração britânica que compartilha em suas coleções a essência do polo equestre',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649273620/2022-04-06_1_wslecd.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Blue Lord criada pela Solux Creative',
-    href: 'https://www.bluelord.com.br',
-  },
-  {
-    name: 'Casa da Madeira',
-    description: 'A Casa da Madeira é uma empresa que fabrica suas próprias peças, voltado para o consumidor final ou lojistas, oferecendo uma gama completa de produtos dentro do seu segmento de atuação',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_2_yvsvji.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da Casa da Madeira criada pela Solux Creative',
-    href: 'https://www.casadamadeira.com.br',
-  },
-  
-  
-  {
-    name: 'All Presents',
-    description: 'Loja especializada em objetos de decoração, acessórios e presentes(Loja em Manutenção).',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_5_wdmnlc.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da All Presentes criada pela Solux Creative',
-    // href: 'https://www.lojaallpresentes.com.br',
-  },
- 
-   
-  {
-    name: 'Familia Pet',
-    description: 'Loja especializada em vendas de produtos para Pets',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_9_nhatfm.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) da FAMILIA PET criada pela Solux Creative',
-    href: 'https://www.familiapetstore.com.br',
-  },
-  {
     name: 'Basico UD',
     description: 'Loja especializada em vendas de produtos de utilidades domésticas e decorações.',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274846/2022-04-06_10_prddfm.png',
     imageAlt: 'Imagem da loja virtual(e-commerce) da Basico UD criada pela Solux Creative',
     href: 'https://www.basicoud.com.br',
   },
- 
   {
     name: 'Padaria O Segredo dos Doces',
     description: 'Site instituicional para a Padaria O Segredo dos Doces',
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_14_vq3wo7.png',
     imageAlt: 'Imagem do site da Padaria O segredo dos doces criada pela Solux Creative',
     href: 'https://www.osegredodosdoces.com.br',
+  },
+  {
+    name: 'Escola Planeta Alegria',
+    description: 'Site instituicional para a Escola Planeta Alegria',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1696340128/Captura_de_tela_2023-10-03_103430_ehjd7f.png',
+    imageAlt: 'Imagem do site da Escola Planeta Alegria criada pela Solux Creative',
+    href: 'https://www.escolaplanetaalegria.com.br',
   },
   {
     name: 'Agencia Somos a Fabula',
@@ -121,11 +101,11 @@ const callouts = [
     href: 'https://www.somosafabula.com.br',
   },
   {
-    name: 'RL Ar-condicionado',
-    description: 'Site para a empresa RL Ar-condicionado',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1649274847/2022-04-06_18_ubutno.png',
-    imageAlt: 'Imagem do site do RL Ar-condicionado criada pela Solux Creative',
-    href: 'https://www.rlarcondicionado.com.br',
+    name: 'Madeireira Getuba',
+    description: 'e-Commerce da Madeireira Getuba',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1696280262/Captura_de_tela_2023-10-02_175356_odbrqu.png',
+    imageAlt: 'Imagem do e-Commerce da Madeireira Getuba criada pela Solux Creative',
+    href: 'https://www.madeireiragetuba.com.br',
   },
   {
     name: 'Dona Mineira',
