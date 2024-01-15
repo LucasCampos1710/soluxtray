@@ -1,6 +1,6 @@
 "use client"
 
-import { Disclosure, } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { NavLink } from './NavLink';
 import Image from 'next/image';
@@ -8,19 +8,19 @@ import Image from 'next/image';
 export default function Nav() {
   return (
     <header className="fixed w-full z-50 bg-white/80">
-      <Disclosure as="nav" className="z-10 font-inter">
+      <Disclosure as="nav" className="z-90 font-inter">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
               <div className="relative flex items-center justify-between h-20">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md  text-zinc-500 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-zinc-200">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XMarkIcon aria-hidden="true" />
+                      <XMarkIcon height={24} width={24} aria-hidden="true" />
                     ) : (
-                      <Bars3Icon aria-hidden="true" />
+                        <Bars3Icon height={24} width={24} aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>
@@ -78,13 +78,13 @@ export default function Nav() {
 
             <Disclosure.Panel className="sm:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1">
-                
-                  <Disclosure.Button>
-                      <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
-                      <NavLink href="/clientes">Clientes</NavLink>
-                      <NavLink href="/revenda">Revenda</NavLink>
-                  </Disclosure.Button>
-                
+
+                <Disclosure.Button>
+                  <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
+                  <NavLink href="/clientes">Clientes</NavLink>
+                  <NavLink href="/revenda">Revenda</NavLink>
+                </Disclosure.Button>
+
               </div>
             </Disclosure.Panel>
           </>
