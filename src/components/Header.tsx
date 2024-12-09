@@ -20,7 +20,7 @@ export default function Nav() {
                     {open ? (
                       <XMarkIcon height={24} width={24} aria-hidden="true" />
                     ) : (
-                        <Bars3Icon height={24} width={24} aria-hidden="true" />
+                      <Bars3Icon height={24} width={24} aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>
@@ -49,7 +49,6 @@ export default function Nav() {
                     <div className="flex relative top-6 space-x-4 ">
                       <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
                       <NavLink href="/clientes">Clientes</NavLink>
-                      <NavLink href="/revenda">Revenda</NavLink>
                     </div>
                   </div>
                 </div>
@@ -82,7 +81,6 @@ export default function Nav() {
                 <Disclosure.Button>
                   <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
                   <NavLink href="/clientes">Clientes</NavLink>
-                  <NavLink href="/revenda">Revenda</NavLink>
                 </Disclosure.Button>
 
               </div>

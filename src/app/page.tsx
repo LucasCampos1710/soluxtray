@@ -115,19 +115,10 @@ export default function Home() {
             <div className='border-r-2 border-zinc-600/25 mr-3'>
               <Image
               className='mr-3 grayscale hover:grayscale-0  hover:bg-blue-950'
-              src="https://res.cloudinary.com/lucascampos/image/upload/v1696350349/652f80_b01788ae8b90467c8191c39adac6a6af_mv2_rzh9wq.png"
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1733765714/logo_diario_de_taubate_1_gl7qhe.jpg"
               height={100}
               width={150}
-              alt='Logo Smart Properts'
-              />
-            </div>
-            <div className='border-r-2 border-zinc-600/25 mr-3'>
-              <Image
-              className='mr-3 grayscale hover:grayscale-0'
-              src="https://res.cloudinary.com/lucascampos/image/upload/v1680718692/logo_xodo_racoes_giknjx.png"
-              height={80}
-              width={100}
-              alt='Logo Xodó Rações'
+              alt='Logo Diário de Taubaté e região'
               />
             </div>
             <div className='mr-3'>
