@@ -26,7 +26,7 @@ const callouts = [
    {
     name: 'Brothers´s Marine',
     description: 'Site institucional da empresa Brother´s Marine, especializada em manutenção Náuitica (Em construção)',
-     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1739546176/ecgbawsunxx9rakb14d4.png',
+     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1739553871/caxennsmnvz78fy1zave.png',
     imageAlt: 'Imagem do site Brother´s Marine criada pela Solux Creative',
     href: 'https://www.brothersmarine.com.br',
   },
