@@ -130,6 +130,15 @@ export default function Home() {
               alt='Logo Grupo Villa'
               />
             </div>
+           <div className='mr-3'>
+              <Image
+              className='mr-3 grayscale hover:grayscale-0'
+              src="https://res.cloudinary.com/lucascampos/image/upload/v1739546176/ecgbawsunxx9rakb14d4.png"
+              height={100}
+              width={150}
+              alt='Logo Brother´s Marine'
+              />
+            </div>
         </div>
       </div>
 
