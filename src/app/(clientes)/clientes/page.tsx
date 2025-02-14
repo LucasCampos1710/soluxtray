@@ -2,6 +2,13 @@ import { Metadata } from "next";
 import Image from "next/image"
 
 const callouts = [
+   {
+    name: 'Divinu´ s Festas',
+    description: 'Loja em especializada em artigos para festas',
+    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1739546332/sc14d7w8sbwztfx2eot6.png',
+    imageAlt: 'Imagem da loja virtual(e-commerce) do Divinu´s Festas criada pela Solux Creative',
+    href: 'https://www.divinusfestas.com.br',
+  },
   {
     name: 'Toledo Surf',
     description: 'Loja virtual do surfista campeão Filipe Toledo.',
@@ -15,6 +22,13 @@ const callouts = [
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1733765305/Captura_de_tela_2024-12-09_141631_l1i9cj.png',
     imageAlt: 'Imagem do site da Agencia Somos a Fabula criada pela Solux Creative',
     href: 'https://www.diariodetaubateregiao.com.br/dt/',
+  },
+   {
+    name: 'Brothers´s Marine',
+    description: 'Site institucional da empresa Brother´s Marine, especializada em manutenção Náuitica (Em construção)',
+     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1739546176/ecgbawsunxx9rakb14d4.png',
+    imageAlt: 'Imagem do site Brother´s Marine criada pela Solux Creative',
+    href: 'https://www.brothersmarine.com.br',
   },
    {
     name: 'Maria Calopsita',
@@ -50,13 +64,6 @@ const callouts = [
     imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1677867548/Captura_de_tela_de_2023-03-03_15-15-03_j4u6dq.png',
     imageAlt: 'Imagem do site institucional do Grupo Villa Caragua',
     href: 'https://www.grupovillacaragua.com.br/',
-  },
-  {
-    name: 'Divinu´ s',
-    description: 'Loja em especializada em artigos para festas (Loja em Construção)',
-    imageSrc: 'https://res.cloudinary.com/lucascampos/image/upload/v1673105505/2023-01-07_3_kwydb9.png',
-    imageAlt: 'Imagem da loja virtual(e-commerce) do Divinu´ s criada pela Solux Creative',
-    href: 'https://www.divinusfestas.com.br',
   },
   {
     name: 'Doc Soluções',
