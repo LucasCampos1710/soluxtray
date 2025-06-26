@@ -121,7 +121,7 @@ export default function Home() {
               alt='Logo Diário de Taubaté e região'
               />
             </div>
-            <div className='mr-3'>
+            {/* <div className='mr-3'>
               <Image
               className='mr-3 grayscale hover:grayscale-0'
               src="https://res.cloudinary.com/lucascampos/image/upload/v1696350806/Logo-grupo-Villa-vermelho_i9yzv6.png"
@@ -129,7 +129,7 @@ export default function Home() {
               width={150}
               alt='Logo Grupo Villa'
               />
-            </div>
+            </div> */}
            <div className='mr-3'>
               <Image
               className='mr-3 grayscale hover:grayscale-0'
