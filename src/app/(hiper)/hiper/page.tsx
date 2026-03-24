@@ -70,8 +70,7 @@ export default function HiperPage() {
             </p>
           </div>
 
-          {/* Bento Grid layout */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(280px,auto)]">
             
             {/* Bento Item 1: Wide */}
             <div className="md:col-span-2 relative overflow-hidden rounded-[2rem] bg-white border border-zinc-100 p-8 hover:shadow-xl hover:shadow-violet-600/5 transition-all duration-300 group">
