@@ -48,6 +48,7 @@ export default function Nav() {
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex relative top-6 space-x-4 ">
                       <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
+                      <NavLink href="/hiper">Sistema Hiper</NavLink>
                       <NavLink href="/clientes">Clientes</NavLink>
                     </div>
                   </div>
@@ -80,6 +81,7 @@ export default function Nav() {
 
                 <Disclosure.Button>
                   <NavLink href="/ecommerce">Lojas Virtuais (e-Commerce)</NavLink>
+                  <NavLink href="/hiper">Sistema Hiper</NavLink>
                   <NavLink href="/clientes">Clientes</NavLink>
                 </Disclosure.Button>
 
