@@ -1,12 +1,9 @@
+"use client"
+
 import { ArrowsLeftRight, CheckCircle, Database, DeviceMobile, FileText, Handshake, Lightning, Receipt, Robot, Storefront, Truck } from "phosphor-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ErpHiperSection } from "@/components/home/ErpHiperSection";
-
-export const metadata = {
-  title: 'Integração Hiper ERP - Solux Creative',
-  description: 'Conheça a integração perfeita entre o e-commerce da Solux e o ERP Hiper. Sincronize estoque, preços e produtos em tempo real.',
-};
 
 export default function HiperPage() {
   return (
