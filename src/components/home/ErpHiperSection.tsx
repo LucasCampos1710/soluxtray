@@ -83,9 +83,13 @@ export function ErpHiperSection() {
                  <div className="w-3 h-3 rounded-full bg-teal-400 animate-pulse" />
               </div>
 
-              {/* Placeholder estético para logo ERP Hiper */}
-              <div className="text-4xl font-black text-zinc-800 tracking-tighter uppercase px-8 py-5 rounded-2xl bg-zinc-50 border-[3px] border-dashed border-zinc-200 transition-all duration-500 group-hover:border-violet-300 group-hover:bg-violet-50 group-hover:text-violet-900">
-                ERP HIPER
+              {/* Logo ERP Hiper Oficial */}
+              <div className="px-8 py-5 rounded-2xl bg-white border border-zinc-100 shadow-[0_5px_15px_-5px_rgba(0,0,0,0.05)] transition-all duration-500 group-hover:border-violet-300 group-hover:shadow-violet-100">
+                <img 
+                  src="https://hiper.com.br/wp-content/themes/temahiper/img/logo-hiper.svg" 
+                  alt="Logo ERP Hiper" 
+                  className="h-10 w-auto object-contain"
+                />
               </div>
             </div>
 
