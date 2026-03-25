@@ -1,0 +1,1485 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://hiper.com.br/wp-content/themes/temahiper/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://hiper.com.br/wp-content/themes/temahiper/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="https://hiper.com.br/wp-content/themes/temahiper/css/style.css?Wednesday 25th of March 2026 02:34:44 PM">
+    
+<!-- Otimização dos mecanismos de pesquisa pelo Rank Math PRO - https://rankmath.com/ -->
+<title>Hiper: Sistema de Gestão (ERP) para o pequeno varejo</title>
+<meta name="description" content="Hiper é o ERP especialista no pequeno varejo. Gestão de lojas, estoque, emissão de nota fiscal e relatórios. Loja física ou virtual. +30 segmentos."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://hiper.com.br/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Hiper: Sistema de Gestão (ERP) para o pequeno varejo" />
+<meta property="og:description" content="Hiper é o ERP especialista no pequeno varejo. Gestão de lojas, estoque, emissão de nota fiscal e relatórios. Loja física ou virtual. +30 segmentos." />
+<meta property="og:url" content="https://hiper.com.br/" />
+<meta property="og:site_name" content="Hiper" />
+<meta property="og:updated_time" content="2025-08-21T17:42:15-03:00" />
+<meta property="og:image" content="https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg" />
+<meta property="og:image:secure_url" content="https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg" />
+<meta property="og:image:width" content="960" />
+<meta property="og:image:height" content="717" />
+<meta property="og:image:alt" content="hiper" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Hiper: Sistema de Gestão (ERP) para o pequeno varejo" />
+<meta name="twitter:description" content="Hiper é o ERP especialista no pequeno varejo. Gestão de lojas, estoque, emissão de nota fiscal e relatórios. Loja física ou virtual. +30 segmentos." />
+<meta name="twitter:image" content="https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg" />
+<meta name="twitter:label1" content="Escrito por" />
+<meta name="twitter:data1" content="123esite" />
+<meta name="twitter:label2" content="Tempo para leitura" />
+<meta name="twitter:data2" content="Menos de um minuto" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://hiper.com.br/#organization","name":"Hiper Software","url":"https://hiper.com.br","logo":{"@type":"ImageObject","@id":"https://hiper.com.br/#logo","url":"http://hiper.com.br/wp-content/uploads/2023/05/logo-1080x1080_roxo.png","contentUrl":"http://hiper.com.br/wp-content/uploads/2023/05/logo-1080x1080_roxo.png","caption":"Hiper","inLanguage":"pt-BR","width":"1080","height":"1080"}},{"@type":"WebSite","@id":"https://hiper.com.br/#website","url":"https://hiper.com.br","name":"Hiper","publisher":{"@id":"https://hiper.com.br/#organization"},"inLanguage":"pt-BR","potentialAction":{"@type":"SearchAction","target":"https://hiper.com.br/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg","url":"https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg","width":"960","height":"717","inLanguage":"pt-BR"},{"@type":"WebPage","@id":"https://hiper.com.br/#webpage","url":"https://hiper.com.br/","name":"Hiper: Sistema de Gest\u00e3o (ERP) para o pequeno varejo","datePublished":"2025-03-28T10:52:17-03:00","dateModified":"2025-08-21T17:42:15-03:00","about":{"@id":"https://hiper.com.br/#organization"},"isPartOf":{"@id":"https://hiper.com.br/#website"},"primaryImageOfPage":{"@id":"https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg"},"inLanguage":"pt-BR"},{"@type":"Person","@id":"https://hiper.com.br/autor/123esite/","name":"123esite","url":"https://hiper.com.br/autor/123esite/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/07bd71fac19f42004f2b73567f012e126689afdb23cb0017536dea9113ba1806?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/07bd71fac19f42004f2b73567f012e126689afdb23cb0017536dea9113ba1806?s=96&amp;d=mm&amp;r=g","caption":"123esite","inLanguage":"pt-BR"},"sameAs":["http://hiper.com.br"],"worksFor":{"@id":"https://hiper.com.br/#organization"}},{"@type":"NewsArticle","headline":"Hiper: Sistema de Gest\u00e3o (ERP) para o pequeno varejo","description":"Hiper \u00e9 o ERP especialista no pequeno varejo. Gest\u00e3o de lojas, estoque, emiss\u00e3o de nota fiscal e relat\u00f3rios. Loja f\u00edsica ou virtual. +30 segmentos.","author":{"@id":"https://hiper.com.br/autor/123esite/","name":"123esite"},"name":"Hiper: Sistema de Gest\u00e3o (ERP) para o pequeno varejo","@id":"https://hiper.com.br/#schema-206937","isPartOf":{"@id":"https://hiper.com.br/#webpage"},"publisher":{"@id":"https://hiper.com.br/#organization"},"image":{"@id":"https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"https://hiper.com.br/#webpage"}},{"@type":"Service","name":"Hiper: Sistema de Gest\u00e3o (ERP) para o pequeno varejo","description":"Hiper \u00e9 o ERP especialista no pequeno varejo. Gest\u00e3o de lojas, estoque, emiss\u00e3o de nota fiscal e relat\u00f3rios. Loja f\u00edsica ou virtual. +30 segmentos.","serviceType":"ERP","offers":{"@type":"Offer","availability":"InStock"},"image":{"@id":"https://hiper.com.br/wp-content/uploads/2023/04/pix.jpg"},"@id":"https://hiper.com.br/#schema-206939"}]}</script>
+<!-- /Plugin de SEO Rank Math para WordPress -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://hiper.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiper.com.br%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://hiper.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiper.com.br%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://hiper.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<script type="text/javascript" src="https://hiper.com.br/wp-content/themes/temahiper/vendor/jquery/jquery.min.js" id="jquery-js"></script>
+
+<!-- Snippet da etiqueta do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Análises adicionado pelo Site Kit -->
+<!-- Snippet do Google Anúncios adicionado pelo Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-WRC3F38" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["hiper.com.br"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-WRC3F38");
+gtag("config", "AW-1033447719");
+//# sourceURL=google_gtagjs-js-after
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://hiper.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://hiper.com.br/wp-json/wp/v2/pages/10114" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hiper.com.br/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://hiper.com.br/' />
+<meta name="generator" content="Site Kit by Google 1.171.0" /><meta name="google-site-verification" content="2X1rCHeFHGmWUU9TbYsCMHJSrvLImGVwB9TZn1J1uxM"><meta name="generator" content="Elementor 3.35.0; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			
+<!-- Snippet do Gerenciador de Tags do Google adicionado pelo Site Kit -->
+<script type="text/javascript">
+/* <![CDATA[ */
+
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-MM85MB3' );
+			
+/* ]]> */
+</script>
+
+<!-- Fim do código do Gerenciador de Etiquetas do Google adicionado pelo Site Kit -->
+<link rel="icon" href="https://hiper.com.br/wp-content/uploads/2023/07/logo-hiper-favicon-80x80.webp" sizes="32x32" />
+<link rel="icon" href="https://hiper.com.br/wp-content/uploads/2023/07/logo-hiper-favicon.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hiper.com.br/wp-content/uploads/2023/07/logo-hiper-favicon.webp" />
+<meta name="msapplication-TileImage" content="https://hiper.com.br/wp-content/uploads/2023/07/logo-hiper-favicon.webp" />
+		<style type="text/css" id="wp-custom-css">
+			section.banner.desktop{
+	display:none
+}
+section.banner.mobile{
+	display:none
+}
+
+		</style>
+		        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MM85MB3');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- <script src='https://cdn.privacytools.com.br/public_api/banner/autoblock/v3/kQ1G11917161.js?t=1'></script>
+
+    <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' /> -->
+    <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+
+</head>
+<body>
+    
+    <!-- Google Tag Manager (noscript) -->
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/1ae433ad-92e3-40ab-ab1d-06a617331b4d-loader.js" ></script>
+    <header>
+                    <div class="top">
+                <a class="d-none d-lg-block" href="https://hiper.com.br/experimente-gratis/?HCode=TES03391" target="_blank" rel="noopener noreferrer"><img src="https://hiper.com.br/wp-content/themes/temahiper/img/Hiper_tarja_site_teste grátis_1920x41px.jpg" alt=""></a>
+                <a class="d-lg-none" href="https://hiper.com.br/experimente-gratis/?HCode=TES03391" target="_blank" rel="noopener noreferrer"><img src="https://hiper.com.br/wp-content/themes/temahiper/img/Hiper_tarja_site_teste grátis_450x41px.jpg" alt=""></a>
+            </div>
+                <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="https://hiper.com.br"><img width="150" src="https://hiper.com.br/wp-content/themes/temahiper/img/hiper.svg?v=1" alt="Hiper - Sistema para Gestão de Lojas, Controle de Estoque e Vendas"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex align-items-center justify-content-between">
+                        <li class="nav-item drop">
+                            <a class="nav-link" href="#">Funcionalidades</a>
+                            <div class="sub">
+                                <div class="container">
+                                    <div class="grid grid-5">
+                                                                                <div class="item">
+                                            <p class="tit">Gestão de Vendas</p>
+                                            <p>Cadastre seus clientes, seus produtos e faça vendas na loja física ou na virtual.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-vendas/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Gestão de Estoque</p>
+                                            <p>Organize e tenha visão de tudo que entra e sai do seu comércio.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-estoque/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Gestão Financeira</p>
+                                            <p>Descomplique a gestão e fique no controle do seu negócio.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-financeira/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Gestão Fiscal</p>
+                                            <p>Plataforma 100% fiscal e homologada para todos os estados.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-fiscal/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Meios de Pagamento</p>
+                                            <p>Faça o acompanhamento das taxas cobradas de cada operação.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/meios-de-pagamento/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                            </div>
+                                    <div class="row">
+                                                                                                                        <div class="col-lg-4">
+                                            <div class="half-banner-menu" style="background: url(https://hiper.com.br/wp-content/themes/temahiper/img/bg-roxo.png) center center/cover no-repeat;">
+                                                <div class="text">
+                                                    <p>Relatórios Hiper</p>
+                                                    <p><strong>Para gerir negócios  e gerar felicidade!</strong></p>
+                                                </div>
+                                                <a href="https://hiper.com.br/ferramentas-de-gestao/relatorios-hiper/" class="button">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                                                                                                        <div class="col-lg-4">
+                                            <div class="half-banner-menu" style="background: url(https://hiper.com.br/wp-content/themes/temahiper/img/bg-laranja.svg) center center/cover no-repeat;">
+                                                <div class="text">
+                                                    <p>Serviços Financeiros</p>
+                                                    <p><strong>Saúde financeira com mais praticidade e segurança. </strong></p>
+                                                </div>
+                                                <a href="https://hiper.com.br/ferramentas-de-gestao/servicos-financeiros/" class="button">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                                                                                                        <div class="col-lg-4">
+                                            <div class="half-banner-menu" style="background: url(https://hiper.com.br/wp-content/themes/temahiper/img/bg-verde.svg) center center/cover no-repeat;">
+                                                <div class="text">
+                                                    <p>Varejo Digital</p>
+                                                    <p><strong>A Hiper simplifica  e você vende mais.</strong></p>
+                                                </div>
+                                                <a href="https://hiper.com.br/ferramentas-de-gestao/varejo-digital/" class="button">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item drop">
+                            <a class="nav-link" aria-current="page" href="#">Segmentos</a>
+                            <div class="sub">
+                                <div class="container">
+                                    <div class="grid grid-5">
+                                                                                <div class="item">
+                                            <p class="tit">Material de construção</p>
+                                            <p>O Hiper oferece bases sólidas para a construção do seu sucesso!</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/material-de-construcao/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Moda</p>
+                                            <p>O ERP sob medida para o varejo de moda</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/moda/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Minimercados e mercadinhos</p>
+                                            <p>Pequenos negócios, grandes resultados!</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/minimercados-e-mercadinhos/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Açougue, casa de carnes e peixaria</p>
+                                            <p>A agilidade que só um sistema pensado pro segmento oferece.</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/acougue-casa-de-carnes-e-peixaria/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                                <div class="item">
+                                            <p class="tit">Padarias</p>
+                                            <p>Os itens essenciais para gerenciar a sua padaria, panificadora e confeitaria.</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/padaria/" class="button green">Saiba mais</a>
+                                        </div>
+                                                                            </div>
+                                                                                                            <div class="super-banner-menu" style="background: url(https://hiper.com.br/wp-content/uploads/2024/07/segmentos-que-o-hiper-atende.jpg) center center/cover no-repeat;">
+                                        <p>Atendemos mais de 30 segmentos!!</p>
+                                        <a id="btn-superbanner" href="https://hiper.com.br/solucoes-para-voce/" class="button">Saiba mais</a>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://hiper.com.br/?page_id=102">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://hiper.com.br/seja-hiperador/">Parceria</a>
+                        </li>
+                        <li class="nav-item drop">
+                            <a class="nav-link" href="#">Mais Hiper</a>
+                            <div class="sub">
+                                <div class="container">
+                                    <div class="d-lg-flex grid justify-content-between">
+                                        <div class="block">
+                                            <p class="purple normal tit">Blog Hiper</p>
+                                            <ul class="grid-3">
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/vendas/">Vendas</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/estoque/">Estoque</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/financeiro/">Financeiro</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/gestao-de-lojas/">Gestão de Lojas</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/marketing/">Marketing</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/meios-de-pagamento/">Meios de Pagamento</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/vendas/">Vendas</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/varejo-digital/">Varejo Digital</a></li>
+                                                                                                                                                        <li><a href="https://hiper.com.br/blog/category/revenda-de-software/">Revenda de Software</a></li>
+                                                                                            </ul>
+                                        </div>
+                                        <span class="border-right"></span>
+                                        <div class="block">
+                                            <p class="purple normal tit">Sobre a Hiper</p>
+                                            <ul>
+                                                                                                <li>
+                                                                                                        <a href="https://hiper.com.br/trabalhe-na-hiper/" target="_self">Trabalhe na Hiper</a>
+                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="https://hiper.com.br/entre-em-contato/" target="_self">Entre em contato</a>
+                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="https://ajuda.hiper.com.br/" target="_blank">Central de ajuda</a>
+                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="https://hiper.com.br/blog/" target="_self">Blog</a>
+                                                </li>
+                                                                                            </ul>
+                                        </div>
+                                                                                                                        <div class="banner-big" style="background: url(https://hiper.com.br/wp-content/uploads/2024/05/seja-hiperador.jpg) center center/cover no-repeat;">
+                                            <div class="text">
+                                                <p>Seja um parceiro oficial<br />
+para revender o Hiper!!</p>
+                                                <a id="expansao-menu" href="https://hiper.com.br/seja-hiperador" class="button">Saiba mais!</a>
+                                            </div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item button outline">
+                            <a id="conversao-header" class="nav-link btnPopup" href="#form-contact">Quero Conhecer</a>
+                        </li>
+                        <li class="nav-item button drop">
+                            <a class="nav-link" href="#">Entrar</a>
+                            <div class="sub-restrict">
+                                <ul>
+                                                                    <li><a id="btn-hiper-gestao" href="https://app.hiper.com.br/" target="_blank">Hiper Gestão</a></li>
+                                                                    <li><a id="btn-painel-contador" href="https://contador.hiper.com.br/?&#038;_ga=2.89066971.1948783771.1682620935-1864438089.1679432376#/" target="_blank">Painel do Contador</a></li>
+                                                                    <li><a id="btn-portal" href="https://portal.hiper.com.br/?&#038;_ga=2.90661338.1948783771.1682620935-1864438089.1679432376#/" target="_blank">Portal do Hiperador</a></li>
+                                                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                                <div class="menu-mobile-container">
+                    <div class="menu-mobile-header">
+                        <button class="menu-mobile-toggle">
+                            <span class="menu-mobile-toggle__bar"></span>
+                            <span class="menu-mobile-toggle__bar"></span>
+                            <span class="menu-mobile-toggle__bar"></span>
+                        </button>
+                    </div>
+                    <a href="#" class="btn-back">Voltar</a>
+                    <ul class="menu-mobile">
+                        <li>
+                            <a href="#">Soluções para você</a>
+                            <ul class="sub-mobile-menu">
+                                                                <li>
+                                    <a href="#">Material de construção</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>O Hiper oferece bases sólidas para a construção do seu sucesso!</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/material-de-construcao/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Moda</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>O ERP sob medida para o varejo de moda</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/moda/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Minimercados e mercadinhos</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Pequenos negócios, grandes resultados!</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/minimercados-e-mercadinhos/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Açougue, casa de carnes e peixaria</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>A agilidade que só um sistema pensado pro segmento oferece.</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/acougue-casa-de-carnes-e-peixaria/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Padarias</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Os itens essenciais para gerenciar a sua padaria, panificadora e confeitaria.</p>
+                                            <a href="https://hiper.com.br/solucoes-para-voce/padaria/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Ferramentas de gestão</a>
+                            <ul class="sub-mobile-menu">
+                                                                <li>
+                                    <a href="#">Gestão de Vendas</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Cadastre seus clientes, seus produtos e faça vendas na loja física ou na virtual.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-vendas/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Gestão de Estoque</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Organize e tenha visão de tudo que entra e sai do seu comércio.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-estoque/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Gestão Financeira</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Descomplique a gestão e fique no controle do seu negócio.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-financeira/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Gestão Fiscal</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Plataforma 100% fiscal e homologada para todos os estados.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/gestao-fiscal/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Meios de Pagamento</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Faça o acompanhamento das taxas cobradas de cada operação.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/meios-de-pagamento/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                                                <li>
+                                    <a href="#">Relatórios Hiper</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Para gerir negócios  e gerar felicidade!</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/relatorios-hiper/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Serviços Financeiros</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>Saúde financeira com mais praticidade e segurança. </p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/servicos-financeiros/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li>
+                                    <a href="#">Varejo Digital</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li>
+                                            <p>A Hiper simplifica  e você vende mais.</p>
+                                            <a href="https://hiper.com.br/ferramentas-de-gestao/varejo-digital/" class="button green">Saiba mais</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://hiper.com.br/?page_id=102">Planos customizados</a>
+                        </li>
+                        <li>
+                            <a href="#">Mais Hiper</a>
+                            <ul class="sub-mobile-menu">
+                                <li>
+                                    <a href="#">Blog Hiper</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li class="grid-2">
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/vendas/">Vendas</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/estoque/">Estoque</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/financeiro/">Financeiro</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/gestao-de-lojas/">Gestão de Lojas</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/marketing/">Marketing</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/meios-de-pagamento/">Meios de Pagamento</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/vendas/">Vendas</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/varejo-digital/">Varejo Digital</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/category/revenda-de-software/">Revenda de Software</a>
+                                                                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                   <a href="#">Sobre a Hiper</a>
+                                    <ul class="sub-sub-mobile-menu">
+                                        <li class="grid-2">
+                                                                                                                                            <a href="https://hiper.com.br/trabalhe-na-hiper/" target="_self">Trabalhe na Hiper</a>
+                                                                                                                                            <a href="https://hiper.com.br/entre-em-contato/" target="_self">Entre em contato</a>
+                                                                                                                                            <a href="https://ajuda.hiper.com.br/" target="_blank">Central de ajuda</a>
+                                                                                                                                            <a href="https://hiper.com.br/blog/" target="_self">Blog</a>
+                                                                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="no-sub" href="https://hiper.com.br/seja-hiperador">Seja um parceiro oficial<br />
+para revender o Hiper!</a>
+                                </li>
+                            </ul>
+                        </li>
+                                                    <li><a id="btn-hiper-gestao" href="https://app.hiper.com.br/" target="_blank">Hiper Gestão</a></li>
+                                                    <li><a id="btn-painel-contador" href="https://contador.hiper.com.br/?&#038;_ga=2.89066971.1948783771.1682620935-1864438089.1679432376#/" target="_blank">Painel do Contador</a></li>
+                                                    <li><a id="btn-portal" href="https://portal.hiper.com.br/?&#038;_ga=2.90661338.1948783771.1682620935-1864438089.1679432376#/" target="_blank">Portal do Hiperador</a></li>
+                                                <a id="conversao-header" class="button orange btnPopup" href="#form-contact">Quero Conhecer</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!-- end header -->        <section class="slider" style="background: url('https://hiper.com.br/wp-content/uploads/2024/10/negocios-mais-felizes-1.jpg') center center/cover no-repeat;">
+        <div class="container">
+            <div class="text">
+                <h1><span style="color: #8224d4">Gestão mais simples, <br>negócios mais felizes</span></h1>
+                <p><span style="color: #8224d4">PDV, gestão de estoque, nota fiscal? <br>Deixa com o Hiper! O sistema ERP<br> especialista em pequeno varejo.</span></p>
+                <div class="buttons">
+                    <a id="conversao-home1" href="#form-contact" class="button btnPopup">Saiba mais</a> <span>ou <a class="" id="info-home1" href="https://hiper.com.br/planos-customizados/"><span style="color: #9a4ced">Conheça nossos planos</span></a></span>
+                </div>
+            </div>
+        </div>
+    </section><!-- end slider -->
+    <section class="icons-featured padding-tb">
+        <div class="container">
+            <h2>De mercados a lojas de roupas, facilitamos a gestão em mais de 30 segmentos!</h2>
+            <p class="text-center"></p>
+            <div class="grid grid-5">
+                                <a id="" href="https://hiper.com.br/solucoes-para-voce/material-de-construcao/" class="item">
+                    <div class="img">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-material-de-construcao.svg" alt="Material de construção">
+                    </div>
+                    <h3>Material de construção</h3>
+                </a>
+                                <a id="" href="https://hiper.com.br/solucoes-para-voce/moda/" class="item">
+                    <div class="img">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-moda.svg" alt="Moda">
+                    </div>
+                    <h3>Moda</h3>
+                </a>
+                                <a id="" href="https://hiper.com.br/solucoes-para-voce/minimercados-e-mercadinhos/" class="item">
+                    <div class="img">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-minimercados-e-mercadinhos.svg" alt="Minimercado<br />
+e mercadinhos">
+                    </div>
+                    <h3>Minimercado<br />
+e mercadinhos</h3>
+                </a>
+                                <a id="" href="https://hiper.com.br/solucoes-para-voce/acougue-casa-de-carnes-e-peixaria/" class="item">
+                    <div class="img">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-acougue-casa-de-carnes-e-peixarias.svg" alt="Açougue, casa de<br />
+carnes e peixaria">
+                    </div>
+                    <h3>Açougue, casa de<br />
+carnes e peixaria</h3>
+                </a>
+                                <a id="" href="https://hiper.com.br/solucoes-para-voce/padaria/" class="item">
+                    <div class="img">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/06/padarias.png" alt="Padarias">
+                    </div>
+                    <h3>Padarias</h3>
+                </a>
+                            </div>
+        </div>
+    </section><!-- end icons featured -->
+            <section class="tab-carousel bg-grey padding-tb">
+        <div class="container">
+            <div class="carousel-sync">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="syncNav owl-carousel" data-items-desktop="2" data-items-tablet="2" data-items-mobile="2" data-space="0" data-autowidth="true">
+                                                        <div class="item">
+                                <button>GESTÃO DE VENDAS</button>
+                            </div>
+                                                        <div class="item">
+                                <button>GESTÃO DE ESTOQUE</button>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="syncContent owl-carousel" data-items-desktop="1" data-items-tablet="1" data-items-mobile="1" data-space="0" data-autoheight="true">
+                                        <div class="item">
+                        <div class="row ">
+                            <div class="col-lg-5">
+                                <h2>Simplifique a rotina e foque em vender melhor.</h2>
+                                <p>Não dependa de Internet: mesmo offline você consegue vender em contingência por até 7 dias<br />
+</p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-de-vendas.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-configuracao-do-negocio.svg" alt="Configuração
+do negócio">
+                                        <p>Configuração
+do negócio</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-relacionamento-com-cliente.svg" alt="Atendimento 
+ao cliente">
+                                        <p>Atendimento 
+ao cliente</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-app-hiper-vendas.svg" alt="App de
+Vendas">
+                                        <p>App de
+Vendas</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-rotina-de-vendas.svg" alt="Rotina de
+vendas">
+                                        <p>Rotina de
+vendas</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home3-1" href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-vendas/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-de-vendas.png" alt="Simplifique a rotina e foque em vender melhor.">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <div class="row ">
+                            <div class="col-lg-5">
+                                <h2>Controle seu estoque e trabalhe feliz de onde estiver.</h2>
+                                <p>Gestão sem dor de cabeça! Cadastre e organize os estoques físico e virtual como quiser.</p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-de-estoque.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-gestao-multilojas.svg" alt="Gestão
+multilojas">
+                                        <p>Gestão
+multilojas</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-gestao-de-produtos.svg" alt="Gestão de
+produtos">
+                                        <p>Gestão de
+produtos</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-cadastros-detalhados.svg" alt="Cadastros
+detalhados">
+                                        <p>Cadastros
+detalhados</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-inventario-completo.svg" alt="Inventário
+completo">
+                                        <p>Inventário
+completo</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home3-2" href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-estoque/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-de-estoque.png" alt="Controle seu estoque e trabalhe feliz de onde estiver.">
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </section><!-- end tab carousel -->
+        <section class="tab-carousel  padding-tb">
+        <div class="container">
+            <div class="carousel-sync">
+                <div class="row">
+                    <div class="offset-lg-7 col-lg-5">
+                        <div class="syncNav owl-carousel" data-items-desktop="2" data-items-tablet="2" data-items-mobile="2" data-space="0" data-autowidth="true">
+                                                        <div class="item">
+                                <button>GESTÃO FINANCEIRA</button>
+                            </div>
+                                                        <div class="item">
+                                <button>GESTÃO FISCAL</button>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="syncContent owl-carousel" data-items-desktop="1" data-items-tablet="1" data-items-mobile="1" data-space="0" data-autoheight="true">
+                                        <div class="item">
+                        <div class="row flex-row-reverse">
+                            <div class="offset-lg-1 col-lg-5">
+                                <h2>Saúde Financeira em dia pro seu negócio ir mais longe!</h2>
+                                <p>Simplifique com recursos exclusivos:</p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-financeira.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-inteligancia-financeira.svg" alt="Inteligência
+financeira">
+                                        <p>Inteligência
+financeira</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/fluxo-financeiro.svg" alt="Fluxo
+Financeiro">
+                                        <p>Fluxo
+Financeiro</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-contabilidade-completa.svg" alt="Painel do
+Contador">
+                                        <p>Painel do
+Contador</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-relatorios-financeiros1.svg" alt="Relatórios
+Financeiros">
+                                        <p>Relatórios
+Financeiros</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home4-1" href="https://hiper.com.br/ferramentas-de-gestao/gestao-financeira/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class=" col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-financeira.png" alt="Saúde Financeira em dia pro seu negócio ir mais longe!">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <div class="row flex-row-reverse">
+                            <div class="offset-lg-1 col-lg-5">
+                                <h2>Plataforma 100% fiscal e homologada para todos os estados brasileiros.</h2>
+                                <p>Perfeito para os varejistas do Brasil: CF-e (SAT SP e Ceará),  NF-e, NFC-e, PAF-NFC-e SC, NFS-e, Manifesto de Carga MDF-e, Cupom Fiscal e Nota Fiscal. </p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-fiscal.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-certificado-digital.svg" alt="Certificado
+Digital">
+                                        <p>Certificado
+Digital</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-documentos-fiscais.svg" alt="Documentos
+Fiscais">
+                                        <p>Documentos
+Fiscais</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-facilidades-fiscais.svg" alt="Facilidades
+Fiscais">
+                                        <p>Facilidades
+Fiscais</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-relatorios-fiscais1.svg" alt="Relatórios
+Fiscais">
+                                        <p>Relatórios
+Fiscais</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home4-2" href="https://hiper.com.br/ferramentas-de-gestao/gestao-fiscal/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class=" col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/gestao-fiscal.png" alt="Plataforma 100% fiscal e homologada para todos os estados brasileiros.">
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </section><!-- end tab carousel -->
+        <section class="tab-carousel bg-grey padding-tb">
+        <div class="container">
+            <div class="carousel-sync">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="syncNav owl-carousel" data-items-desktop="2" data-items-tablet="2" data-items-mobile="2" data-space="0" data-autowidth="true">
+                                                        <div class="item">
+                                <button>MEIOS DE PAGAMENTO</button>
+                            </div>
+                                                        <div class="item">
+                                <button>VENDA ONLINE</button>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="syncContent owl-carousel" data-items-desktop="1" data-items-tablet="1" data-items-mobile="1" data-space="0" data-autoheight="true">
+                                        <div class="item">
+                        <div class="row ">
+                            <div class="col-lg-5">
+                                <h2>Tenha mais opções para oferecer aos seus clientes.</h2>
+                                <p>Do queridinho PIX à integração com a maquininha STONE, o Hiper oferece facilidades para que você venda mais.  </p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/meio-de-pagamento.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-controle-de-caixa.svg" alt="POS Connect">
+                                        <p>POS Connect</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-recebimentos-e-antecipacoes.svg" alt="PIX">
+                                        <p>PIX</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-decisoes-mais-estrategicas.svg" alt="TEF integrado">
+                                        <p>TEF integrado</p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/10/conta-digital.png" alt="Conta Digital">
+                                        <p>Conta Digital</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home5-1" href="https://hiper.com.br/ferramentas-de-gestao/meios-de-pagamento/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/meio-de-pagamento.png" alt="Tenha mais opções para oferecer aos seus clientes.">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <div class="row ">
+                            <div class="col-lg-5">
+                                <h2>Estenda seu balcão para o mundo digital e aumente suas vendas.</h2>
+                                <p>Conheça seus novos canais de vendas: </p>
+                                <img class="d-block d-lg-none mt-5 mb-5" src="https://hiper.com.br/wp-content/uploads/2024/10/venda-online.png" alt="">
+                                <div class="d-flex justify-content-between">
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-marketplaces-1.svg" alt="Marketplaces ">
+                                        <p>Marketplaces </p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-cadastros-detalhados.svg" alt="Catálogo Digital ">
+                                        <p>Catálogo Digital </p>
+                                    </div>
+                                                                        <div class="icon">
+                                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-configuracao-do-negocio.svg" alt="Loja Online">
+                                        <p>Loja Online</p>
+                                    </div>
+                                                                    </div>
+                                <a id="info-home5-2" href="https://hiper.com.br/ferramentas-de-gestao/varejo-digital/" class="button green ">Quero conhecer a ferramenta</a>
+                            </div>
+                            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
+                                <img src="https://hiper.com.br/wp-content/uploads/2024/10/venda-online.png" alt="Estenda seu balcão para o mundo digital e aumente suas vendas.">
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </section><!-- end tab carousel -->
+            <section class="banner padding-tb" style="background-image: url(https://hiper.com.br/wp-content/uploads/2024/11/painel-do-contador.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text">
+                        <h3>Para Contadores</h3>
+                        <h2>Simplicidade e agilidade<br> para sua contabilidade</h2>
+                        <p>Com o Painel do Contador Hiper, contadores têm acesso direto e independente às informações fiscais dos lojistas que utilizam nosso sistema. Baixe XMLs, gere relatórios de entradas e saídas, e exporte arquivos para o SPED Fiscal, tudo em um só lugar. <br />
+<br />
+Simplifique o processo fiscal e mantenha a organização e agilidade nas rotinas do seu escritório!</p>
+                        <div class="icons d-flex">
+                                                    </div>
+                    </div>
+                    <a id="info-home6" href="#form-contact" class="button green btnPopup">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- end banner -->
+                <section class="comparative padding-tb">
+    <div class="container">
+        <h2>Quem compara, escolhe Hiper:</h2>
+        <p>Gestão mais fácil, empreendedor mais feliz!</p>
+        <div class="table">
+                        <div class="row">
+                <div class="offset-md-6 col-md-6">
+                    <div class="title">
+                        <div class="item">
+                            Hiper                         </div>
+                        <div class="item">
+                           Principais concorrências                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subtitle">
+                <div class="row">
+                    <div class="col-9">
+                        <h2>Gestão de vendas</h2>
+                    </div>
+                    <div class="col-lg-3">
+                        <p>Média consolidada de três das  principais concorrências do mercado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Atendimento híbrido</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Controle de Estoque e troca de mercadoria</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Venda por consignação (malinha)</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Aplicativo para força de vendas realizar pedidos</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Gestão de Fluxo de Caixa </p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Calendário de recebíveis dos pagamentos em maquininhas de cartões</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Gestão entre filiais </p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Orçamento para pré-venda</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="item">
+                    <div class="row">
+                        <div class="col-9">
+                            <p>Conta Digital Integrada</p>
+                            <div class="icon">
+                                                                    <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-check.svg" alt="">
+                                                            </div>
+                        </div>
+                        <div class="col-3 justify-content-center">
+                                                            <img src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-x.svg" alt="">
+                                                    </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="footer">
+                <p>*Algumas soluções podem ser adquiridas à parte ou em planos mais robustos dos concorrentes</p>
+            </div>
+                        <div class="row banners">
+                <div class="col-lg-6">
+                    <a class="btnPopup" id="conversao-pln5" href="#form-contact">
+                        <div class="text">
+                            <h2>Seu negócio está pronto para <br />
+uma gestão mais feliz com o Hiper?</h2>
+                            <span class="button">Falar com especialista</span>
+                        </div>
+                        <img src="https://hiper.com.br/wp-content/themes/temahiper/img/bg-roxo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="" id="expansao-pln" href="https://www.hiper.com.br/seja-hiperador/">
+                        <div class="text">
+                            <h2>Revenda a plataforma Hiper</h2>
+                            <span class="button">Quero revender o Hiper</span>
+                        </div>
+                        <img src="https://hiper.com.br/wp-content/themes/temahiper/img/bg-laranja.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- comparative -->            <section class="banner padding-tb" style="background-image: url(https://hiper.com.br/wp-content/themes/temahiper/img/banner-quem-somos.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3>QUEM SOMOS</h3>
+                    <div class="text">
+                        <h2>Apaixonados por simplificar<br />
+gestão e facilitar sorrisos!</h2>
+<p>Nós inovamos para você empreender com mais tranquilidade, alcançar o sucesso e ser Hiper feliz.</p>
+                        <div class="d-none d-md-block">
+                            <h2>Somos parte do grupo StoneCo</h2>
+<p>Queremos que os empreendedores brasileiros cresçam e aumentem sua produtividade por meio da tecnologia. Com essa missão em comum, nós da Hiper unimos forças com o Grupo Stone para trazer cada vez mais sucesso e felicidade aos negócios.</p>
+<p>#JuntosPorUmSonhoAindaMaior<br />
+#TodosPeloEmpreendedorBrasileiro</p>
+<p><img decoding="async" class="alignnone wp-image-270" src="http://admin-site.hiper.com.br/wp-content/uploads/2023/04/logo-stone.svg" alt="" width="223" height="118" /></p>
+                        </div>
+                    </div>
+                    <a id="info-home11" href="https://hiper.com.br/trabalhe-na-hiper/" class="button green ">Saiba mais sobre a Hiper</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- end banner -->
+    <section class="banner-text-mobile d-block d-md-none bg-purple padding-tb">
+        <div class="container">
+            <h2>Somos parte do grupo StoneCo</h2>
+<p>Queremos que os empreendedores brasileiros cresçam e aumentem sua produtividade por meio da tecnologia. Com essa missão em comum, nós da Hiper unimos forças com o Grupo Stone para trazer cada vez mais sucesso e felicidade aos negócios.</p>
+<p>#JuntosPorUmSonhoAindaMaior<br />
+#TodosPeloEmpreendedorBrasileiro</p>
+<p><img decoding="async" class="alignnone wp-image-270" src="http://admin-site.hiper.com.br/wp-content/uploads/2023/04/logo-stone.svg" alt="" width="223" height="118" /></p>
+        </div>
+    </section>
+        <section class="icons-line-carousel bg-grey padding-tb">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Seja um Hiperador!</h2>
+                <p class="width-smaller">Seja um parceiro Hiper e faça parte da equipe de representantes que inova o mercado de software no Brasil. Veja alguns benefícios:</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carousel">
+                <div class="owl-carousel" data-items-desktop="4" data-items-tablet="3" data-items-mobile="1" data-space="0" data-nav="true" data-autowidth="false">
+                                        <div class="item">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-treinamento.svg" alt="Treinamento">
+                        <div class="text">
+                            <h3>Treinamento</h3>
+                            <p>Treinamento e curso EAD realizado com toda sua equipe. Liberação de conta teste para o parceiro.</p>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-suporte-ao-parceiro.svg" alt="Suporte ao parceiro">
+                        <div class="text">
+                            <h3>Suporte ao parceiro</h3>
+                            <p>Agilidade no atendimento ao parceiro. Suporte com time dedicado para te atender.</p>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-gerente-de-contas.svg" alt="Gerente de contas">
+                        <div class="text">
+                            <h3>Gerente de contas</h3>
+                            <p>Apoio no desenvolvimento de estratégias para o crescimento da parceria.</p>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <img src="https://hiper.com.br/wp-content/uploads/2023/04/ico-portal-do-hiperador.svg" alt="Portal do Hiperador">
+                        <div class="text">
+                            <h3>Portal do Hiperador</h3>
+                            <p>Ative, faça a gestão das oportunidades e tenha acompanhamento financeiro dos seus clientes.</p>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <a id="expansao-home12" href="https://www.hiper.com.br/seja-hiperador" class="button green">Seja nosso parceiro!</a>
+        </div>
+    </section><!-- icons-line-carousel -->
+        <section class="press-carousel padding-tb">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Hiper na imprensa</h2>
+                <p>Veja o que os principais veículos falam sobre a Hiper</p>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="owl-carousel" data-items-desktop="3" data-items-tablet="3" data-items-mobile="1" data-space="30" data-loop="true" data-center="true" data-autowidth="true" data-nav="true" data-dotsmobile="true">
+                                <div class="item">
+                    <img src="https://hiper.com.br/wp-content/uploads/2023/04/g1.png" alt="">
+                    <h2>Empresa de tecnologia ajuda varejistas na gestão de loja física e online</h2>
+                    <p>"A empresa trabalha com sistema de gestão de venda e decidiu acelerar as integrações para habilitar com maior agilidade os lojistas em um canal de vendas digital."</p>
+                </div>
+                                <div class="item">
+                    <img src="https://hiper.com.br/wp-content/uploads/2023/04/pegn.png" alt="">
+                    <h2>Startup nascida em garagem atende 15 mil clientes</h2>
+                    <p>“A Hiper criou um software de gestão para simplificar processos“</p>
+                </div>
+                                <div class="item">
+                    <img src="https://hiper.com.br/wp-content/uploads/2023/04/terra.png" alt="">
+                    <h2>Startup conquista clientes com sistema de gestão para micro e pequenos comerciantes</h2>
+                    <p>"O software, desenvolvido pela empresa catarinense Hiper, auxilia o processo de vendas de lojas de roupa a minimercados."</p>
+                </div>
+                            </div>
+        </div>
+        <a href="http://www.hiper.com.br/carreiras/" class="button green">Saiba mais sobre a Hiper</a>
+    </section><!-- press-carousel -->
+        <section class="blog-featured padding-tb bg-grey">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Buscar conhecimento e consolidar o sucesso!</h2>
+                <p class="width-smaller">Preparamos materiais exclusivos para você aprender e melhorar ainda mais a gestão do seu negócio, confira: </p>
+            </div>
+        </div>
+                <div class="d-block d-md-none item-featured" style="background-image: url('https://hiper.com.br/wp-content/uploads/2023/05/giro-de-estoque.jpg');">
+            <a href="https://hiper.com.br/blog/calcular-o-giro-de-estoque/" class="item">
+                <div class="text">
+                    <h2>Como calcular o Giro de Estoque de sua loja</h2>
+                    <p>Giro de estoque é uma fórmula que ajuda a analisar a circulação de mercadorias, contabilizando quantas vezes elas foram vendidas e repostas no estoque, ou seja, quantas vezes elas “giraram”. </p>
+                                    </div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 d-none d-md-block item-featured">
+                    <a id="blog-home" href="https://hiper.com.br/blog/calcular-o-giro-de-estoque/" class="item">
+                        <div class="text">
+                            <h2>Como calcular o Giro de Estoque de sua loja</h2>
+                            <p>Giro de estoque é uma fórmula que ajuda a analisar a circulação de mercadorias, contabilizando quantas vezes elas foram vendidas e repostas no estoque, ou seja, quantas vezes elas “giraram”. </p>
+                                                    </div>
+                        <img class="bg" src="https://hiper.com.br/wp-content/uploads/2023/05/giro-de-estoque.jpg" alt="Como calcular o Giro de Estoque de sua loja">
+                    </a>
+                </div>
+                <div class="col-lg-4 list">
+                                        <a id="post" href="https://hiper.com.br/blog/tipos-de-estoque-no-varejo/" class="item">
+                        <div class="text">
+                            <h2>Conheça os 4 principais tipos de estoque no varejo</h2>
+                        </div>
+                                                <img class="bg" src="https://hiper.com.br/wp-content/uploads/2023/05/tipos-de-estoque-1.jpg" alt="Conheça os 4 principais tipos de estoque no varejo">
+                    </a>
+                                        <a id="post" href="https://hiper.com.br/blog/contabilidade-gerencial-erp/" class="item">
+                        <div class="text">
+                            <h2>Potencialize a Contabilidade Gerencial da sua loja com ERP</h2>
+                        </div>
+                                                <img class="bg" src="https://hiper.com.br/wp-content/uploads/2023/05/contabilidade-com-erp.jpg" alt="Potencialize a Contabilidade Gerencial da sua loja com ERP">
+                    </a>
+                                        <a id="post" href="https://hiper.com.br/blog/analise-vertical-e-horizontal/" class="item">
+                        <div class="text">
+                            <h2>Qual a diferença entre análise vertical e horizontal?</h2>
+                        </div>
+                                                <img class="bg" src="https://hiper.com.br/wp-content/uploads/2023/05/analise-vertical-e-horizontal.jpg" alt="Qual a diferença entre análise vertical e horizontal?">
+                    </a>
+                                    </div>
+            </div>
+            <a href="https://hiper.com.br/blog/" class="button green">Veja todos os nossos artigos</a>
+        </div>
+    </section><!-- blog-featured -->
+    		<section class="faq">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 pad">
+					<div class="title">
+						<h2>Dúvidas?</h2>
+						<p>Já respondemos as mais frequentes:</p>
+					</div>
+					<div class="accordion" id="accordionExample">
+																		<div class="accordion-item">
+							<h2 class="accordion-header" id="heading1">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+									É possível criar uma loja online com o Hiper?								</button>
+							</h2>
+							<div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>É possível vender online criando sua própria loja virtual (e-commerce) com o Hiper. Venda pelo Whatsapp e pelas redes sociais com o Catálogo Digital ou no Mercado Livre.</p>
+								</div>
+							</div>
+						</div>
+																								<div class="accordion-item">
+							<h2 class="accordion-header" id="heading2">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+									Quais segmentos o Hiper atende?								</button>
+							</h2>
+							<div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>O Hiper atende mais de 30 segmentos do pequeno varejo. Entre eles: lojas de roupa, materiais de construção, mercados, oficinas mecânicas, açougues, peixarias, entre outros.</p>
+								</div>
+							</div>
+						</div>
+																								<div class="accordion-item">
+							<h2 class="accordion-header" id="heading3">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+									O Hiper me permite a emissão de documentos fiscais (notas e cupons)?								</button>
+							</h2>
+							<div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>Sim, com o Hiper a sua empresa consegue emitir nota fiscal, cupom fiscal, nota de serviço, além de outros documentos fiscais exigidos pela SEFAZ.</p>
+								</div>
+							</div>
+						</div>
+																								<div class="accordion-item">
+							<h2 class="accordion-header" id="heading4">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+									Posso integrar a minha maquininha de cartão ao Hiper?								</button>
+							</h2>
+							<div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>Com o Hiper, você consegue utilizar o sistema de caixa integrado às maquininhas de duas tecnologias diferentes: TEF e a integração direta com o POS Stone, nos modelos S920 e Q92, além dos modelos Android L3, A8 e P2.</p>
+								</div>
+							</div>
+						</div>
+																								<div class="accordion-item">
+							<h2 class="accordion-header" id="heading5">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+									Quais vantagens o Hiper traz para o meu negócio?								</button>
+							</h2>
+							<div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>O Hiper acompanha a gestão da sua empresa de ponta a ponta: do cadastro do produto à emissão da nota fiscal. Reunimos em um único ERP tudo que um pequeno negócio precisa: vendas, gestão financeira, controle de estoque, emissão de documentos e relatórios, além de inúmeras integrações que trazem ainda mais facilidades pro seu dia a dia.</p>
+								</div>
+							</div>
+						</div>
+																	</div>
+					<a href="#form-contact" class="button green btnPopup">Fale com especialista</a>
+				</div>
+				<div class="col-lg-6 d-none d-md-block">
+										<img class="bg" src="https://hiper.com.br/wp-content/uploads/2023/04/banner-duvidas-960x860.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<img class="bg d-block d-md-none" src="https://hiper.com.br/wp-content/themes/temahiper/img/banner-duvidas-mobile.jpg" alt="Dúvidas?">
+	</section><!-- section faq -->
+		<div id="form-revenda" class="popup">
+		<div role="main" id="teste-site-novo-solicitacao-para-revenda-b655f6723333b3ebadab"><a href="#" class="close"><img
+					src="https://hiper.com.br/wp-content/themes/temahiper/img/x.svg" alt=""></a></div>
+
+		<script type="text/javascript">
+			new RDStationForms('teste-site-novo-solicitacao-para-revenda-b655f6723333b3ebadab', 'UA-12373462-21').createForm();
+		</script>
+
+	</div>
+	<div id="form-contact" class="popup">
+		<div role="main" id="teste-site-novo-solicitacao-para-cl-67d547911614445c6695"><a href="#" class="close"><img
+					src="https://hiper.com.br/wp-content/themes/temahiper/img/x.svg" alt=""></a></div><script type="text/javascript"> new RDStationForms('teste-site-novo-solicitacao-para-cl-67d547911614445c6695', 'UA-12373462-21').createForm();</script>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="top">
+				<div class="left">
+					<img width="150" class="invert filter-pb" src="https://hiper.com.br/wp-content/themes/temahiper/img/hiper.svg?v=1" alt="">
+					<div class="social d-lg-flex">
+						<a href="https://instagram.com/hiperoficial" target="_blank" rel="noopener noreferrer"><img
+								src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-instagram.svg" alt="Instagram"></a>
+						<a href="https://www.facebook.com/SistemaHiper" target="_blank" rel="noopener noreferrer"><img
+								src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-facebook.svg" alt="Facebook"></a>
+						<a href="https://www.linkedin.com/company/sistema-hiper" target="_blank" rel="noopener noreferrer"><img
+								src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-linkedin.svg" alt="Linkedin"></a>
+						<a href="https://www.youtube.com/channel/UCHtj3CP69f8fNDFDKkNj1NA?" target="_blank" rel="noopener noreferrer">
+							<img width="36" src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-youtube.svg" alt="Youtube"></a>
+						<a href="https://www.tiktok.com/@hiper.oficial" target="_blank" rel="noopener noreferrer">
+							<img width="30" src="https://hiper.com.br/wp-content/themes/temahiper/img/ico-tiktok.svg" alt="Youtube">
+						</a>
+					</div>
+				</div>
+				<div class="right d-none d-lg-flex">
+					<a href="#" target="_blank" rel="noopener noreferrer"><img
+							src="https://hiper.com.br/wp-content/themes/temahiper/img/logo-stoneco-rodape.svg" alt=""></a>
+									</div>
+			</div>
+			<div class="middle">
+				<div class="row">
+					<div class="col-lg-8 col-menu">
+						<div class="menu">
+							<p class="tit">Funcionalidades</p>
+							<ul>
+																<li><a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-vendas/">Vendas</a></li>
+																<li><a href="https://hiper.com.br/ferramentas-de-gestao/gestao-de-estoque/">Estoque</a></li>
+																<li><a href="https://hiper.com.br/ferramentas-de-gestao/gestao-financeira/">Financeiro</a></li>
+																<li><a href="https://hiper.com.br/ferramentas-de-gestao/gestao-fiscal/">Fiscal</a></li>
+																<li><a href="https://hiper.com.br/ferramentas-de-gestao/relatorios-hiper/">Relatórios</a></li>
+															</ul>
+						</div>
+						<div class="menu">
+							<p class="tit">Segmentos</p>
+							<ul>
+																<li><a href="https://hiper.com.br/solucoes-para-voce/moda/">Moda</a></li>
+																<li><a href="https://hiper.com.br/solucoes-para-voce/material-de-construcao/">Material de construção</a></li>
+																<li><a href="https://hiper.com.br/solucoes-para-voce/minimercados-e-mercadinhos/">Mercado</a></li>
+																<li><a href="https://hiper.com.br/solucoes-para-voce/padaria/">Padaria</a></li>
+																<li><a href="https://hiper.com.br/solucoes-para-voce/">Todos os segmentos</a></li>
+															</ul>
+						</div>
+						<div class="menu">
+							<ul>
+																<li><a href="https://hiper.com.br/planos">Planos</a></li>
+																<li><a href="https://hiper.com.br/seja-hiperador/">Parceria</a></li>
+															</ul>
+						</div>
+						<div class="menu">
+							<p class="tit">Mais Hiper</p>
+							<ul>
+																<li><a href="https://hiper.com.br/blog/">Blog</a></li>
+																<li><a href="https://hiper.com.br/trabalhe-na-hiper/">Trabalhe conosco</a></li>
+																<li><a href="https://hiper.com.br/entre-em-contato/">Contato</a></li>
+																<li><a href="https://ajuda.hiper.com.br/">Central de ajuda</a></li>
+															</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="selos">
+														<a class="mb-2 d-block" href="https://hiper.com.br/seja-hiperador/"><img width="201" src="https://hiper.com.br/wp-content/themes/temahiper/img/stone.png" alt="Stone"></a>
+						</div>
+																		<div class="right d-lg-none">
+							<a href="#" target="_blank" rel="noopener noreferrer"><img
+									src="https://hiper.com.br/wp-content/themes/temahiper/img/logo-stoneco-rodape.svg" alt=""></a>
+													</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p>2026 © Hiper Gestão - Todos os direitos reservados.</p>
+				<div class="links">
+					<a href="https://dpo.privacytools.com.br/policy-view/VXD8Ad0xY/1/policy/pt_BR?s=1727102338796">Política de privacidade</a>
+					<a href="https://dpo.privacytools.com.br/policy-view/Ba0d3Y2qR/2/policy/pt_BR?s=1727102337344">Aviso de cookies</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap-->
+	<script src="https://hiper.com.br/wp-content/themes/temahiper/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!-- olw-carousel -->
+	<link rel="stylesheet" href="https://hiper.com.br/wp-content/themes/temahiper/vendor/owlcarousel/dist/assets/owl.carousel.min.css">
+	<script src="https://hiper.com.br/wp-content/themes/temahiper/vendor/owlcarousel/dist/owl.carousel.min.js"></script>
+	<!-- utm_cookie -->
+	<script src="https://hiper.com.br/wp-content/themes/temahiper/vendor/utm_cookie.js"></script>
+	<!-- Script -->
+	<script src="https://hiper.com.br/wp-content/themes/temahiper/js/script.js"></script>
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/temahiper/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+					<!-- Snippet do Gerenciador de Etiqueta do Google (noscript) adicionado pelo Site Kit -->
+		<noscript>
+		</noscript>
+		<!-- Fim do código do Gerenciador de Etiquetas do Google (noscript) adicionado pelo Site Kit -->
+		<script type="text/javascript" id="icwp-wpsf-notbot-js-extra">
+/* <![CDATA[ */
+var shield_vars_notbot = {"strings":{"select_action":"Por favor, selecione uma a\u00e7\u00e3o a executar.","are_you_sure":"Tem a certeza?","absolutely_sure":"Tem a certeza absoluta?"},"comps":{"notbot":{"ajax":{"not_bot":{"action":"shield_action","ex":"capture_not_bot","exnonce":"1d881988c6","ajaxurl":"https://hiper.com.br/wp-admin/admin-ajax.php","_wpnonce":"adf9f40cdf","_rest_url":"https://hiper.com.br/wp-json/shield/v1/action/capture_not_bot?exnonce=1d881988c6&_wpnonce=adf9f40cdf"}},"flags":{"skip":false,"required":true}}}};
+//# sourceURL=icwp-wpsf-notbot-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiper.com.br/wp-content/plugins/wp-simple-firewall/assets/dist/shield-notbot.bundle.js?ver=21.2.6&amp;mtime=1772715176" id="icwp-wpsf-notbot-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://hiper.com.br/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://hiper.com.br/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+	<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+	<script>
+	(function () {
+		var s = document.createElement('script');
+		s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk.js';
+		s.setAttribute('data-tenant-uuid', '0866a7d8-edc3-48f0-a3c9-ac2a31850e84');
+		s.setAttribute('data-domain-uuid', 'fef4a026-a91e-4fe8-af65-59825922668e');
+		s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+		s.defer = true;
+		var parent_node = document.head || document.body;
+		parent_node.appendChild(s);
+		s.addEventListener('load', function() { window.initCmp(); });
+	})()
+	</script>
+	<script type="module">
+    (function(d) {
+    window.omniChatQueueId = 16;
+    window.omniChatDomain = 'hipersoftware.evotalks.com.br';
+    var s = d.createElement('script');s.async = true;
+    s.src = 'https://statics.atenderbem.com/js/wbchat.min.js';
+    (d.head || d.body).appendChild(s);
+  })(document);
+</script>
+	<link rel="stylesheet" href="https://cdn.privacytools.com.br/public_api/banner/style/PkAY11917161.css?t=1"></link>
+	<script type="text/javascript" src="https://cdn.privacytools.com.br/public_api/banner/script/bottom-left/PkAY11917161.js?t=1"></script>
+	</body>
+
