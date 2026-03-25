@@ -7,7 +7,21 @@ import Image from 'next/image';
 
 export default function Nav() {
   return (
-    <header className="fixed w-full z-50 bg-white/70 backdrop-blur-md border-b border-white/20 transition-all shadow-sm">
+    <header className="fixed w-full z-50 flex flex-col bg-white/70 backdrop-blur-md border-b border-white/20 transition-all shadow-sm">
+      {/* Top Banner Hiper */}
+      <div className="bg-violet-700 w-full px-4 py-3 text-center transition-all bg-[url('/noise.png')] relative overflow-hidden">
+        <p className="text-[13px] sm:text-sm font-medium text-white relative z-10">
+          Transforme sua gestão com o ERP focado no varejo.{' '}
+          <a 
+            href="https://hiper.com.br/experimente-gratis?HCode=FAS01320" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block mt-1 sm:mt-0 font-bold underline decoration-violet-400 hover:text-cyan-300 transition-colors"
+          >
+            Faça um teste totalmente grátis agora &rarr;
+          </a>
+        </p>
+      </div>
       <Disclosure as="nav" className="z-90 font-inter">
         {({ open }) => (
           <>
