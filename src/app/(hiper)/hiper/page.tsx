@@ -140,6 +140,58 @@ export default function HiperPage() {
         </div>
       </section>
 
+      {/* 3.B HIPER NATIVE FEATURES */}
+      <section className="py-24 bg-white relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-6">
+                Muito além da internet: <br/>O coração da sua loja física
+              </h2>
+             <p className="text-lg text-zinc-600">
+                O Hiper não é apenas um conector. É um sistema de gestão nascido no balcão, desenhado para cuidar de cada centavo da sua operação no mundo real.
+             </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+             {/* Card 1 */}
+             <div className="p-8 rounded-3xl bg-zinc-50 border border-zinc-100 hover:border-violet-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-violet-100 text-violet-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-violet-600 group-hover:text-white transition-colors duration-300">
+                   <DeviceMobile weight="duotone" className="w-7 h-7" />
+                </div>
+                <h4 className="text-xl font-bold text-zinc-900 mb-3">PDV Imparável</h4>
+                <p className="text-zinc-600">Frente de caixa ultra-rápida. Seu caixa continua emitindo vendas e cupons por até 7 dias totalmente sem internet.</p>
+             </div>
+
+             {/* Card 2 */}
+             <div className="p-8 rounded-3xl bg-zinc-50 border border-zinc-100 hover:border-cyan-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-cyan-600 group-hover:text-white transition-colors duration-300">
+                   <FileText weight="duotone" className="w-7 h-7" />
+                </div>
+                <h4 className="text-xl font-bold text-zinc-900 mb-3">100% Fiscal e Legal</h4>
+                <p className="text-zinc-600">Homologado em todos os estados. Emita NF-e, NFC-e e SAT. Oferece um Portal Exclusivo para acesso direto do seu Contador.</p>
+             </div>
+
+             {/* Card 3 */}
+             <div className="p-8 rounded-3xl bg-zinc-50 border border-zinc-100 hover:border-teal-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors duration-300">
+                   <Database weight="duotone" className="w-7 h-7" />
+                </div>
+                <h4 className="text-xl font-bold text-zinc-900 mb-3">Saúde Financeira</h4>
+                <p className="text-zinc-600">Controle seu contas a pagar/receber e visualize DREs gerenciais. Inteligência real para potencializar o seu lucro mensal.</p>
+             </div>
+
+             {/* Card 4 */}
+             <div className="p-8 rounded-3xl bg-zinc-50 border border-zinc-100 hover:border-indigo-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300">
+                   <Handshake weight="duotone" className="w-7 h-7" />
+                </div>
+                <h4 className="text-xl font-bold text-zinc-900 mb-3">Meios de Pagamento</h4>
+                <p className="text-zinc-600">Conciliação automática. Integração com TEF, maquininhas Stone, PIX direto na tela do PDV e Conta Digital integrada.</p>
+             </div>
+          </div>
+        </div>
+      </section>
+
       {/* 4. WORKFLOW SECTION */}
       <section className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
